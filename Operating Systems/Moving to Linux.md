@@ -40,6 +40,7 @@ This documentation covers the installation and setup of EndeavourOS (an Arch-bas
 	  - ![](images/BashValidation.png)
 - **Created bootable USB drive to install EndeavourOS**
   - Installed Rufus tool to create bootable USB
+ 
 	 ![](images/rufus.png)
 - Booted from EndeavourOS USB (Calamares installer).
 
