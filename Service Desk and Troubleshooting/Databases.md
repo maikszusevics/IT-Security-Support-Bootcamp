@@ -38,7 +38,7 @@ Keys establish relationships between tables and ensure data integrity in relatio
 
 In any relational database it is important to ensure that all data follows defined rules and constraints, maintaining accuracy and reliability across transactions. This is crucial for applications where incorrect or contradictory information could lead to serious business, financial, or legal consequences.
 
-#### ACID Compliance 
+### ACID Compliance 
 
 **ACID** compliance is a framework for ensuring data consistency. It is a set of properties that ensure reliable processing of database transactions. **ACID** stands for:
 
