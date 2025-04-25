@@ -23,6 +23,7 @@ The bootcamp is organized into themed folders based on weekly focus areas. Each 
 ### Learning (External Courses)
 
 The `Learning/` directory documents my learning outside the core bootcamp, focusing on technical skills practise and overall IT knowledge
+
 ---
 
 ## Purpose
