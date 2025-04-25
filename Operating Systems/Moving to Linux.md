@@ -37,15 +37,23 @@ This documentation covers the installation and setup of EndeavourOS (an Arch-bas
 - **Verified the ISO file integrity using SHA512 checksum**:
   - Downloaded the SHA 512 checksum file from the EndeavourOS website
   - Used bash terminal in VScode to verify the checksum matches
- 
-	   ![](images/BashValidation.png)
+  - 
+
+   ![](images/BashValidation.png)
+
+
 - **Created bootable USB drive to install EndeavourOS**
   - Installed Rufus tool to create bootable USB
+
  
 	 ![](images/rufus.png)
+
+
 - Booted from EndeavourOS USB (Calamares installer).
 
 	 ![](images/STARTINGCALA.png)
+
+  
 	![](images/EXTRAINFOWINDO.png)
 
 ---
@@ -53,16 +61,35 @@ This documentation covers the installation and setup of EndeavourOS (an Arch-bas
 
 The Calamares Installer provided with EndeavourOS has a user friendly GUI
 
+
 ![](images/WELCOMETOINSTALLER.png)
+
+
 - After the welcome screen, there are GUI panels for choosing your locale and keyboard layout.
 - The installer offers a wide range of desktop environments, I chose Plasma KDE for its modern aesthetic and extensive features.
+
+  
 ![](images/CHOOSEPLASMA.PNG)
+
+
 - LTS (Long Term Support) kernel to be installed alongside the newest kernel.
+
+  
 ![](images/LTSKERNELNVIDIADRIVERS.PNG)
-- GRUB is selected as the bootloader which allows for a stable fallback to LTS (Long Term Support) kernel in case the newer kernel updates introduce compatibility issues with hardware or software. 
+
+
+- GRUB is selected as the bootloader which allows for a stable fallback to LTS (Long Term Support) kernel in case the newer kernel updates introduce compatibility issues with hardware or software.
+
+  
 ![](images/GRUB.png)
+
+
 - A long list of recommended packages includes git, which was used to push this documentation to GitHub.
+
+  
 ![](images/RECOMMENDEDAPPLICATIONS.PNG)
+
+
 ##### Planned Partition structure:
 
 | Mount Point | Size                     | Type          | File System |
@@ -75,17 +102,39 @@ All to be created using the installer’s guided manual partitioning tool.
 - Opting for a Btrfs file system for its built-in snapshots, compression, and RAID support.
 
 Chose Manual Partitioning option in order to create the planned structure:
+
+
 ![](images/MANUALPARTITION.png)
+
+
 Used the installer's built in partition manager to delete all windows partitions:
+
+
 ![](images/THEBIGDELETE.png)
+
+
 ![](images/THEBIGGONE.png)
+
+
 Created the required partitions:
+
+
 ![](images/PARTITIONS.png)
+
+
 #### Installer Password Policy
+
 - The installer has a password policy which prohibits passwords that are too short:
+
+
 ![](images/PASSWORDPOLICY.png)
+
+
 ### Installer Summary:
+
+
 ![](images/SUMMARY.png)
+
 
 ---
 
@@ -93,7 +142,10 @@ Created the required partitions:
 
 ### System Updates & Mirrors
 Upon booting into EndeavourOS for the first time, the post-install setup is made very straightforward with buttons that execute the relevant CLI commands in a terminal.
+
+
 ![](images/FIRSTBOOT.png)
+
 
 ## Basic OS Hardening
 
