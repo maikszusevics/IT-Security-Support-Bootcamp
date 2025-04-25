@@ -37,7 +37,8 @@ This documentation covers the installation and setup of EndeavourOS (an Arch-bas
 - **Verified the ISO file integrity using SHA512 checksum**:
   - Downloaded the SHA 512 checksum file from the EndeavourOS website
   - Used bash terminal in VScode to verify the checksum matches
-	  - ![](images/BashValidation.png)
+ 
+	   ![](images/BashValidation.png)
 - **Created bootable USB drive to install EndeavourOS**
   - Installed Rufus tool to create bootable USB
  
