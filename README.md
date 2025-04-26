@@ -2,7 +2,7 @@
 
 This repository contains detailed documentation, study notes, and personal reflections created during my participation in the 12-week **IT Security & Support Bootcamp**.
 
-It serves as both a learning archive and a practical portfolio of my technical growth in IT support, networking, cybersecurity, and professional development.
+It serves as both a learning archive and a living portfolio of my technical growth in IT support, networking, cybersecurity, and professional development.
 
 ## Contents
 
