@@ -42,17 +42,17 @@ In any relational database it is important to ensure that all data follows defin
 
 **ACID** compliance is a framework for ensuring data consistency. It is a set of properties that ensure reliable processing of database transactions. **ACID** stands for:
 
-#### A — Atomicity
+#### A - Atomicity
 Each transaction is **all or nothing**. If any part fails, the whole transaction is rolled back. No partial updates.
 
-#### C — Consistency
+#### C - Consistency
 A transaction brings the database from one **valid state** to another **valid state**. It maintains database rules, like constraints and relationships.
 
-#### I — Isolation
+#### I - Isolation
 Transactions are **executed independently**, even if they run at the same time. This prevents interference and ensures consistent results.
 
-#### D — Durability
-Once a transaction is committed, its **changes are permanent** — even in case of a crash or power failure.
+#### D - Durability
+Once a transaction is committed, its **changes are permanent**, even in case of a crash or power failure.
 
 Without **ACID**, a database can become **unreliable, inconsistent, or even lose data**, especially during errors or power failures.
 

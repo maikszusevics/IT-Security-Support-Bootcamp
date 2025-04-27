@@ -16,8 +16,6 @@ An issue becomes apparent. A system, device, or application is not functioning a
 - Automated monitoring tools might flag errors or anomalies.
 - Symptoms might be obvious or subtle.
 
-> This is the initial trigger — something is not right.
-
 ---
 
 ### 2. **Identify the Problem**
@@ -30,7 +28,7 @@ Begin gathering data, collect as many facts as possible.
 - When did it last work correctly?
 - Has anything changed recently (hardware, software, environment)?
 - Is the problem consistent or intermittent?
-- Is the issue isolated to one user, device, or system — or is it widespread?
+- Is the issue isolated to one user, device, or system, or is it widespread?
 
 #### Actions:
 
@@ -98,7 +96,7 @@ Check whether your test resolved the issue.
 
 ### 6. **Establish a Plan of Action**
 
-Once you’ve confirmed the cause, design a fix that solves the root of the issue — not just the symptoms.
+Once you’ve confirmed the cause, design a fix that solves the root of the issue, not just the symptoms.
 
 #### Consider:
 
@@ -123,7 +121,7 @@ Carry out your fix.
 
 ### 8. **Verify Full System Functionality**
 
-Ensure that everything is working — not just the specific symptom you were focused on.
+Ensure that everything is working, not just the specific symptom you were focused on.
 
 - Are related systems or features functioning?
 - Has the user confirmed the issue is resolved?

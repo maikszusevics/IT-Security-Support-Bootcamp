@@ -41,7 +41,7 @@ When you read an email or message, ask:
     - **Do not enter information.**
     - If you entered your credentials, **change your password immediately** and **report it**.
 
-Mistakes happen to everyone — catching it early is just as important as preventing it.
+Mistakes happen to everyone, catching it early is just as important as preventing it.
 
 ---
 

@@ -196,7 +196,7 @@ Using the same command as used earlier to generate 253 IP addresses, but changes
 | `New-NetFirewallRule`            | Creates a new rule in the Windows Firewall.                                                         |
 | `-DisplayName "Allow ICMPv4-In"` | Sets a name so you can find/delete it later.                                                        |
 | `-Protocol ICMPv4`               | Tells the firewall you're working with ICMP version 4, the protocol used by ping and similar tools. |
-| `-IcmpType 8`                    | Allows Echo Requests (ICMP type 8) — this is the request part of a ping.                            |
+| `-IcmpType 8`                    | Allows Echo Requests (ICMP type 8)  this is the request part of a ping.                             |
 | `-Direction Inbound`             | Applies the rule to incoming traffic.                                                               |
 | `-Action Allow`                  | Tells the firewall to allow the traffic instead of blocking it.                                     |
 

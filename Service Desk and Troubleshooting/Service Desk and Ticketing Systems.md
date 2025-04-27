@@ -208,13 +208,13 @@ The process of categorising support tickets based on their **urgency**, **impact
     - Issues affecting revenue streams are prioritised higher.
 
 - **Priority Classification System:**  
-    Use a standard system (e.g., _Low, Medium, High, Critical_) to categorise tickets based on severity and impact.
+    Use a standard system (e.g., Low, Medium, High, Critical) to categorise tickets based on severity and impact.
     
 - **Service Level Agreements (SLAs):**  
     SLAs should include clearly defined response and resolution times for each priority level to ensure timely handling of issues.
     
 - **Resource Optimisation:**  
-    Allocate resources effectively by addressing high-priority issues first—those with the most significant impact on operations.
+    Addressing high-priority issues first, those with the most significant impact on operations.
 
 ## Ticket Escalation Management
 
