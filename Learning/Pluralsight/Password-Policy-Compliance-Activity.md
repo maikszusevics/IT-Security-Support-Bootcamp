@@ -81,11 +81,14 @@ Before the meeting with Tasneem, there is an opportunity to get coffee at the ca
 
 ![](Images/read.png)
 ![](Images/comeonjohn.png)
+
 This conversation is alarming because it shows a dismissive attitude towards the security measures in place, and even more alarming is that it's mentioned that procedures have been modified to accommodate this compliance assessment.
 
 After getting a coffee, and one for Tasneem, the next meeting can begin.
+
 ![](Images/waiting.png)
 ![](Images/hash.png)
+
 Tasneem explains that all encryption standards are met easily by using Microsoft's Active Directory, which automatically encrypts all passwords securely at rest and transit.
 
 The next meeting is with David the Helpdesk Agent.
@@ -107,7 +110,8 @@ Whilst there is a policy in place to make sure this password gets changed upon l
 During the meeting with Arnold, the Acceptable Use Policy can be viewed. Upon reading the policy it is clear that there is not sufficient detail and advice in order for it to be compliant with the **PCI DSS section 8.3.8**, because it does not instruct employees to never use the same password twice for the same system, and it does not explain what an employee should do if they lose their smart card. Therefore the company cannot be compliant with **PCI DSS section 8.3.8**
 
 ![](Images/confirm.png)
-[Overview of the training](Your-Role-in-Protecting-the-Company.md)
+
+>[Overview of the training](Your-Role-in-Protecting-the-Company.md)
 ### Compliance Assessment
 
 ![](Images/yourassessment.png)
