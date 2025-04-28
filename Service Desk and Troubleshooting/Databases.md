@@ -111,7 +111,7 @@ Query language used to interact with relational databases.
 ```sql
 SELECT name, email FROM users WHERE active = 1;
 ```
-[Basic SQL Syntax]()
+[Basic SQL Syntax](https://github.com/maikszusevics/IT-Security-Support-Bootcamp/blob/main/Learning/W3Schools/SQL%20Intro%20-%20W3Schools.md)
 ### JSON (JavaScript Object Notation)
 
 Lightweight and designed to be human-readable. Used in many NoSQL systems.
