@@ -78,6 +78,7 @@ First meeting is George, the Active Directory Administrator. He shows that the c
 The meeting with George also proved that MFA (Multi-Factor-Authentication) is enabled for every user in the company, users get locked out after three attempts and their account must be re-enabled by the service desk manually. It also shows that new passwords must be changed at first logon. This is all in compliance with the companies internal Information Security policy, but it is **not in compliance** with the Payment Card Industry (PCI) Data Security Standard (DSS) **section 8.3.6**. This is because the PCI DSS document states a minimum length of 12 characters for a password, whereas the policy in place is only 8.
 
 Before the meeting with Tasneem, there is an opportunity to get coffee at the canteen, where another conversation is heard about passwords.
+
 ![](Images/read.png)
 ![](Images/comeonjohn.png)
 This conversation is alarming because it shows a dismissive attitude towards the security measures in place, and even more alarming is that it's mentioned that procedures have been modified to accommodate this compliance assessment.
