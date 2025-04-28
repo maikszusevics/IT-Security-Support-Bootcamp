@@ -24,13 +24,12 @@ The bootcamp is organised into folders based focus areas. Each folder contains M
 
 The `Learning/` directory documents my learning outside the live bootcamp sessions on Zoom, focusing on technical skills, troubleshooting documentation practise, and overall IT knowledge.
 
----
 
 ## Purpose
 
 This repository is not only a record of learning but also a **portfolio of evidence** designed to support consistent professional development and to enhance my employability in IT roles. It reflects independent initiative, technical comprehension, and a commitment to practical growth.
 
----
+
 ## Notes
 
 - All documentation is written in Markdown for clarity and compatibility.
