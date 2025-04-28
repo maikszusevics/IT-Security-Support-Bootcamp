@@ -1,14 +1,14 @@
 # IT Security & Support Bootcamp Documentation
 
-This repository contains detailed documentation, study notes, and personal reflections created during my participation in the 12-week **IT Security & Support Bootcamp**.
+This repository contains documentation of my participation in the 12-week IT Security & Support Bootcamp with Althaus Ditigtal.
 
-It serves as both a learning archive and a living portfolio of my technical growth in IT support, networking, cybersecurity, and professional development.
+It serves as both a personal archive of my learning and a living portfolio of my technical growth in IT support, networking, and cybersecurity.
 
 ## Contents
 
 ### Core Bootcamp Modules
 
-The bootcamp is organised into themed folders based on weekly focus areas. Each folder contains Markdown files that break down key concepts, tools, and methods covered in live sessions and on-demand content.
+The bootcamp is organised into folders based focus areas. Each folder contains Markdown files which are organised and formatted versions of my study notes. They aim to break down key concepts, tools, and methods covered in live sessions and on-demand content.
 
 - `Operating Systems/` – Introduction to operating systems and system fundamentals  
 - `Customer Support/` – Stakeholder communication, virtual teams, and customer-facing skills  
