@@ -20,20 +20,19 @@ The bootcamp is organised into folders based focus areas. Each folder contains M
 - `Careers and Development/` – CV workshops, job readiness, and trainer modules  
 - `Soft Skills/` – Emotional intelligence, productivity, conflict handling, and feedback  
 
-### Learning (External Courses)
+### Learning (On-Demand Content, Personal Troubleshooting Knowledge Base)
 
-The `Learning/` directory documents my learning outside the core bootcamp, focusing on technical skills, troubleshooting documentation practise, and overall IT knowledge.
+The `Learning/` directory documents my learning outside the live bootcamp sessions on Zoom, focusing on technical skills, troubleshooting documentation practise, and overall IT knowledge.
 
 ---
 
 ## Purpose
 
-This repository is not only a record of learning but also a **portfolio of evidence** designed to support my professional development and employability in IT roles. It reflects independent initiative, technical comprehension, and a commitment to practical growth.
+This repository is not only a record of learning but also a **portfolio of evidence** designed to support consistent professional development and to enhance my employability in IT roles. It reflects independent initiative, technical comprehension, and a commitment to practical growth.
 
 ---
 ## Notes
 
 - All documentation is written in Markdown for clarity and compatibility.
-- Where possible, examples and diagrams are included to reinforce understanding.
 - This repository will be updated regularly as the bootcamp progresses.
 
