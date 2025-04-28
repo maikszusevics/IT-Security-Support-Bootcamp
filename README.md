@@ -15,7 +15,7 @@ The bootcamp is organised into folders based focus areas. Each folder contains M
 - `Service Desk and Troubleshooting/` – Ticketing systems, vendor documentation, and troubleshooting  
 - `Infrastructure Basics/` – Hardware, software, virtualisation, and cloud computing  
 - `Networking Basics/` – TCP/IP, OSI model, network configuration, and security  
-- `Cybersecurity Fundamentals/` – Threats, controls, awareness, and frameworks  
+- `Cybersecurity/` – Threats, controls, awareness, and frameworks  
 - `Risk and Compliance/` – BCP, DRP, IR, risk management, and legal standards  
 - `Careers and Development/` – CV workshops, job readiness, and trainer modules  
 - `Soft Skills/` – Emotional intelligence, productivity, conflict handling, and feedback  
