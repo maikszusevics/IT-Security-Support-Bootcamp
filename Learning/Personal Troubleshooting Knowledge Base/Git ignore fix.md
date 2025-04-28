@@ -134,7 +134,7 @@ Confirmed:
 **Important**: `.gitignore` only prevents **new files** from being tracked.  
 Already tracked files must be manually removed with:
 
-`git rm --cached -r unwanted-folder-name/ 
+`git rm --cached -r unwanted-folder-name/` 
 
 ### Preventative Measures:
 
