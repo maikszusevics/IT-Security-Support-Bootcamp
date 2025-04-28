@@ -5,7 +5,7 @@ Vendor support documentation facilitates agreements, expectations, terms and con
 
 Vendor support documentation includes SLAs, OLAs, NDAs, and T&Cs. These are formal agreements that define how support is provided between service providers and customers or between internal teams.
 
----
+
 
 ## Managed Service Provider (MSP)
 
@@ -15,7 +15,7 @@ For example, If a small business doesn't have its own IT team, they might hire a
 
 Strong vendor support documentation enables MSPs to maintain higher service levels with fewer internal resources, directly affecting profitability and scalability. 
 
----
+
 ## SLA – Service Level Agreement
 
 An SLA is a formal, customer-facing contract between a service provider and a client. It defines the expected level of service, how performance is measured, and what penalties apply if standards aren't met.
@@ -46,7 +46,7 @@ SLA breaches are evaluated based on:
 - *Major outage*: Failing 99.9% uptime = compensation for lost revenue.
 - *Security breach*: Data exposure = right to compensation and potential contract termination.
 
----
+
 
 ## OLA – Operational Level Agreement
 
@@ -57,7 +57,7 @@ An OLA is an internal agreement, between the company and its staff. It outlines 
 
 OLAs are used to set internal expectations and track service delivery using KPIs (Key Performance Indicators). While not legally binding, they influence employee performance reviews or bonuses.
 
----
+
 
 ## NDA – Non-Disclosure Agreement
 
@@ -67,7 +67,7 @@ An NDA is a legally binding agreement that ensures sensitive or confidential inf
 - Common during business negotiations or employment.
 - Protects intellectual property, trade secrets, and strategic plans.
 
----
+
 
 ## T&Cs – Terms and Conditions
 
@@ -131,7 +131,6 @@ Policies help ensure **compliance**, **consistency**, and **accountability** in 
 
 A detailed, written set of instructions outlining the steps for performing a specific task or routine activity. SOPs are designed to ensure consistency, efficiency, and quality in how tasks are executed. 
 
----
 
 ## Five Nines – High Availability (99.999%)
 
@@ -151,7 +150,6 @@ A detailed, written set of instructions outlining the steps for performing a spe
 - 99% uptime: ~3.65 days downtime/year
 - 90% uptime: ~36.5 days downtime/year
 
----
 
 ## Intellectual Property (IP)
 
