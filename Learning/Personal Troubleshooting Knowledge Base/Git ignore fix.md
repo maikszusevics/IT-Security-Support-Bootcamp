@@ -1,13 +1,10 @@
 # Issue Report: Lack of Knowledge About `.gitignore` Leading to Unwanted Files in Git
 
----
 
 ## 1. Identify the Problem
 
 An unwanted folder was accidentally pushed to a Git repository.  
 Initially, the symptom appeared to be an isolated mistake, but deeper review revealed the underlying issue was a lack of understanding of `.gitignore` files and their correct use.
-
----
 
 ## 2. Establish a Theory of the Cause
 
@@ -16,7 +13,6 @@ The problem likely occurred because:
 - I had no `.gitignore` file set up before the initial commit.
 - If i create a `.gitignore` with correct syntax, the problem will be solved.
 
----
 
 ## 3. Test the Theory
 
@@ -47,7 +43,6 @@ Used `git push origin main` to push the changes to the online repository
 
 ![](Images/push.png)
 
----
 
 ## 4. Evaluate Results: Is it working?
 
@@ -63,7 +58,7 @@ Not fixed, back to hypothesis.
 Second hypothesis:
 - A `.gitignore` file will not remove folders that are already tracked, and there is a separate git command for that.
 
----
+
 ## 3. Test the Theory (Second Iteration)
 
 To confirm the theory, a simple google search was conducted to find the command for removing a folder from a git repository is `git rm --cached -r unwanted-folder-name/`
@@ -75,7 +70,6 @@ Followed by `git commit -m` and `git push`
 ![](Images/pushed.png)
 
 
----
 ## 4. Evaluate Results: Is it working? (Second Iteration)
 
 After pushing to git, I checked the website to see that the .obsidian folder was gone and the repository looked like it was supposed to:
@@ -83,14 +77,14 @@ After pushing to git, I checked the website to see that the .obsidian folder was
 ![](Images/fixed.png)
 
 
----
+
 ## 5. Establish a Plan of Action
 
 Plan:
 - Commit and push the changes to update the repository.
 - Create personal documentation (this document) explaining `.gitignore` syntax and behaviour, to prevent the same issue in future projects.
 
----
+
 
 ## 6. Implement the Plan
 
@@ -107,7 +101,7 @@ Plan:
     
 4. Wrote this documentation explaining the `.gitignore` syntax and typical use cases.
 
----
+
 
 ## 7. Verify Full System Functionality
 
@@ -118,7 +112,7 @@ Confirmed:
 - `.gitignore` rules were functioning as intended.
 - A documented reference now exists to prevent future misunderstanding.
 
----
+
 
 ## 8. Document Findings
 
