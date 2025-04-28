@@ -1,13 +1,13 @@
 
 # Introduction to Databases
 
-Databases are organized systems for storing, managing, and retrieving data. They are essential in virtually all areas of IT, from websites and mobile apps to large enterprise systems and cybersecurity operations.
+Databases are structured systems used for data management, retrieval, and storage. From websites and mobile apps to big enterprise systems and cybersecurity operations, they are crucial in almost every aspect of IT.
 
 ---
 
 ## 1. Relational Databases (RDBMS)
 
-A **relational database** stores information in tables made up of rows and columns, similar to a spreadsheet. It uses **SQL** to organise, search, and manage data, especially good for relating data across different tables.
+Like a spreadsheet, a **relational database** stores data in tables composed of rows and columns. It organises, searches, and manages data using **SQL**, which is particularly useful for connecting data from several tables.
 ### Basic Properties:
 
 - Store data in **tables** (rows and columns).
@@ -24,23 +24,27 @@ A **predefined schema** in relational databases is a formal structure that defin
 
 This schema must be established before data can be inserted, and any changes to the structure require the schema to be updated. This provides strong data consistency but less flexibility compared to schema-less database models.
 
+#### Referential Integrity in Relational Databases:
+
+Ensures that existing relationships between tables cannot be broken, so data always remains coherent.
+
 #### SQL Keys: The Foundation of Relational Databases
 
 Keys establish relationships between tables and ensure data integrity in relational databases:
 
-- **Primary Key**: A column (or combination of columns) that uniquely identifies each row in a table; each table has exactly one primary key designation, though it may contain many unique values
-- **Composite Primary Key**: A primary key consisting of multiple columns whose combined values uniquely identify each row
+- **Primary Key**: A column (or combination of columns) that uniquely identifies each row in a table. Each table has exactly one primary key designation, though it can contain many unique values.
+- **Composite Primary Key**: A primary key consisting of multiple columns whose combined values uniquely identify each row.
 - **Foreign Key**: A column that references a primary key in another table, creating relationships between tables and enforcing referential integrity
-- **Relationship Example**: When `customer_id` appears in the Customers table, it's a primary key; when the same ID appears in the Orders table, it's a foreign key connecting orders to their customers
+- **Relationship Example**: When `customer_id` appears in the Customers table, it's a primary key; when the same ID appears in the Orders table, it's a foreign key connecting orders to their customers.
 
 
 ### Data Consistency in Relational Databases
 
-In any relational database it is important to ensure that all data follows defined rules and constraints, maintaining accuracy and reliability across transactions. This is crucial for applications where incorrect or contradictory information could lead to serious business, financial, or legal consequences.
+Ensuring that all data adheres to established guidelines and limitations is crucial for relational databases in order to preserve accuracy and dependability throughout transactions. This is particularly important for applications where inaccurate or conflicting information could have major financial, legal, or business repercussions.
 
 ### ACID Compliance 
 
-**ACID** compliance is a framework for ensuring data consistency. It is a set of properties that ensure reliable processing of database transactions. **ACID** stands for:
+A framework for guaranteeing data consistency. It is a collection of characteristics that provide dependable database transaction processing. **ACID** stands for:
 
 #### A - Atomicity
 Each transaction is **all or nothing**. If any part fails, the whole transaction is rolled back. No partial updates.
@@ -58,29 +62,16 @@ Without **ACID**, a database can become **unreliable, inconsistent, or even lose
 
 ### Common Use Cases
 
-- Social media platforms managing **massive unstructured** content and **rapid scaling**.
-- IoT companies collecting **high-volume**, **real time** sensor data.
-- Gaming companies requiring **low-latency data access** from **many clients** all over the world.
-- Media delivery networks handling distributed caching and flexible content types
+- Banks and insurance firms that need strict transaction integrity and regulatory compliance.
+- Hospitals managing structured patient records with complex relationships.
+- Retail platforms tracking orders, inventory, and customer purchase history.
+- Manufacturing operations monitoring production and supply chains.
+
 #### Common Relational Databases:
-- **SQL Server** (Microsoft): Microsoft's enterprise solution widely used in corporate environments with strong integration across Microsoft's ecosystem.
+- **SQL Server** (Microsoft): Microsoft's enterprise DB widely used in corporate environments, strong integration across Microsoft's ecosystem.
 - **Oracle Database** (Oracle): Robust and scalable system favoured by large enterprises, financial institutions, and mission-critical applications.
 - **MySQL** (Open Source): Popular open-source option for web applications and content management systems like WordPress.
 - **PostgreSQL** (Open Source): More Advanced open-source system known for reliability, complex query handling, and strong standards compliance.
-
-#### Primary Keys in SQL:
-
-- Unique identifier for each row in a table
-- Cannot contain NULL values
-- Only one primary key table
-- Example: `customer_id` in a Customers table uniquely identifies each customer
-
-##### Foreign Keys in SQL:
-
-- Column(s) that reference a primary key in another table
-- Creates relationships between tables
-- Enforces referential integrity (prevents orphaned records)
-- Example: `customer_id` in an Orders table references the Customers table, connecting each order to its customer
 
 ---
 ## 2. NoSQL Databases
@@ -102,6 +93,12 @@ A **NoSQL database** stores data in flexible formats like documents, key-value p
 | Key-Value   | Simple key and value storage       | Redis, Amazon DynamoDB |
 | Graph       | Nodes and edges to represent data  | Neo4j, Amazon Neptune  |
 | Wide-Column | Tables with dynamic columns        | Apache Cassandra       |
+### Common Use Cases
+
+- Social media platforms managing **massive unstructured** content and **rapid scaling**.
+- IoT companies collecting **high-volume**, **real time** sensor data.
+- Gaming companies requiring **low-latency data access** from **many clients** all over the world.
+- Media delivery networks handling distributed caching and flexible content types
 
 ---
 
@@ -114,10 +111,10 @@ Query language used to interact with relational databases.
 ```sql
 SELECT name, email FROM users WHERE active = 1;
 ```
-
+[Basic SQL Syntax]()
 ### JSON (JavaScript Object Notation)
 
-Lightweight, human-readable. Used in many NoSQL systems.
+Lightweight and designed to be human-readable. Used in many NoSQL systems.
 
 ```json
 {
@@ -129,7 +126,7 @@ Lightweight, human-readable. Used in many NoSQL systems.
 
 ### XML (eXtensible Markup Language)
 
-Structured, verbose markup language used in legacy and enterprise systems.
+Structured but "wordy" markup language used in legacy and enterprise systems.
 
 ```xml
 <user>
@@ -149,7 +146,7 @@ Structured, verbose markup language used in legacy and enterprise systems.
 
 ### Oracle Database
 - High-performance **RDBMS**
-- Uses PL/SQL
+- Uses PL/SQL (Adds procedural programming capabilities (loops, conditions, variables) to standard SQL)
 - Widely used in finance, telecom, and government
 
 ### MongoDB

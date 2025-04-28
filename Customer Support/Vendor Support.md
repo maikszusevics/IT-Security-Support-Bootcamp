@@ -6,6 +6,16 @@ Vendor support documentation facilitates agreements, expectations, terms and con
 Vendor support documentation includes SLAs, OLAs, NDAs, and T&Cs. These are formal agreements that define how support is provided between service providers and customers or between internal teams.
 
 ---
+
+## Managed Service Provider (MSP)
+
+An MSP is a company that manages IT services for other businesses.
+
+For example, If a small business doesn't have its own IT team, they might hire an MSP to handle things like setting up devices and servers, keeping software up to date, protecting against cyber threats, and solving technical issues with software and hardware.
+
+Strong vendor support documentation enables MSPs to maintain higher service levels with fewer internal resources, directly affecting profitability and scalability. 
+
+---
 ## SLA – Service Level Agreement
 
 An SLA is a formal, customer-facing contract between a service provider and a client. It defines the expected level of service, how performance is measured, and what penalties apply if standards aren't met.
@@ -23,7 +33,7 @@ Key elements in an SLA:
 Response time refers to how long it takes from when a support request is made to when a technician begins working on the issue.
 
 - Larger organisations may have slower internal response times.
-- Managed Service Providers (MSPs) usually have help desks ready to assist quickly via remote or on-site support.
+- MSPs usually have help desks ready to assist quickly via remote or on-site support.
 - Most issues are resolved remotely.
 
 ### SLA Penalties
@@ -40,11 +50,12 @@ SLA breaches are evaluated based on:
 
 ## OLA – Operational Level Agreement
 
-An OLA is an internal agreement, typically between departments (e.g., between a service desk manager and support staff). It outlines performance targets like:
-- Response/resolution times for internal tickets
-- Server/application availability
+An OLA is an internal agreement, between the company and its staff. It outlines performance targets like:
 
-OLAs are used to set expectations and track internal service delivery using KPIs (Key Performance Indicators). While not legally binding, they influence employee performance reviews or bonuses.
+- Response and resolution times for internal tickets
+- On-prem server availability
+
+OLAs are used to set internal expectations and track service delivery using KPIs (Key Performance Indicators). While not legally binding, they influence employee performance reviews or bonuses.
 
 ---
 
@@ -83,18 +94,18 @@ A policy refers to an individual set of rules/conduct for an intended purpose.
 
 **Examples:**
 - **Acceptable Use Policy** (AUP)
-	- Document stipulating constraints and practises that a user must agree to for access to a corporate network or use f a company asset
-	- Purpose - why the policy exists
-	- Scope - who is affected by the policy
+	- Document stipulating constraints and practises that a user must agree to for access to a corporate network or use of a company asset.
+	- Purpose - why the policy exists.
+	- Scope - who is affected by the policy.
 	- Unacceptable use - non exhaustive list of unacceptable behaviours providing clear examples.
 	- Consequences of Breach - Penalties imposed by the organisation for breach of policy. For example, verbal warning, dismissal, fine, etc...
 - **Security Policy**
 	- There to protect the companies IT assets, employees, and data.
 	- Security policies are live documents that are continuously updated and reviewed as technologies, vulnerabilities, and security requirements change.
-	- May describe how the company plans to educate it's employees about protecting the company's assets
+	- May describe how the company plans to educate it's employees about protecting the company's assets.
 - **Password Policy**
-	- Password policy is a set of rules designed to enhance security by encouraging users to employ strong passwords and use them properly 
-	- Often digitally enforced by credential management systems implemented across organisational networks
+	- Password policy is a set of rules designed to enhance security by encouraging users to employ strong passwords and use them properly.
+	- Often digitally enforced by credential management systems implemented across organisational networks.
 	- A robust password policy will consider the following characteristics:
 		- Password History
 		- Password Age
@@ -102,7 +113,8 @@ A policy refers to an individual set of rules/conduct for an intended purpose.
 		- Password Complexity Requirements
 
 - **BYOD Policy** 
-	- Bring Your Own Device policy makes staff aware of the issues caused by using personal devices for work and sets down the key steps to be followed in limiting the potential risks to employers
+	- Bring Your Own Device policy makes staff aware of the issues caused by using personal devices for work and sets down the key steps to be followed in limiting the potential risks to employers.
+
 - **Multi Factor Authentication Policy (MFA)**
 	- When MFA is enabled, users access systems by presenting proof of at least two factors or more for authentication.
     
@@ -126,12 +138,12 @@ A detailed, written set of instructions outlining the steps for performing a spe
 "Five Nines" (99.999%) uptime represents approximately 5 minutes of downtime per year, the gold standard for system reliability.
 
 **Applications:**
-- Necessary for mission-critical systems in healthcare, financial services, and enterprise cloud platforms
-- Targeted by premium cloud providers and communications services
+- Necessary for mission-critical systems in healthcare, financial services, and enterprise cloud platforms.
+- Targeted by premium cloud providers and communications services.
 
 **Implementation considerations:**
-- Requires redundant infrastructure, automated failover systems, and 24/7 monitoring
-- Demands rigorous testing, proactive maintenance, and rapid incident response capabilities
+- Requires redundant infrastructure, automated failover systems, and 24/7 monitoring.
+- Demands rigorous testing, proactive maintenance, and rapid incident response capabilities.
 
 **Reliability context:**
 - 99.999% uptime: ~5 minutes downtime/year
@@ -148,19 +160,19 @@ IP documents prove legal ownership of intangible assets like inventions, designs
 #### Most common forms of IP documents:
 
 **Trademark License:**
-- Grants permission to use a protected brand name, logo, or slogan
-- Typically includes usage guidelines, quality control provisions, and territory limitations
-- Protects brand identity and consumer recognition in the market
+- Grants permission to use a protected brand name, logo, or slogan.
+- Typically includes usage guidelines, quality control provisions, and territory limitations.
+- Protects brand identity and consumer recognition in the market.
 
 **Patent Certificate:**
-- Official document issued by a government patent office confirming exclusive rights to an invention
-- Provides legal protection against others making, using, or selling the patented invention
-- Usually valid for 20 years from filing date, requiring maintenance fees to remain active
+- Official document issued by a government patent office confirming exclusive rights to an invention.
+- Provides legal protection against others making, using, or selling the patented invention.
+- Usually valid for 20 years from filing date, requiring maintenance fees to remain active.
 
 **Copyright License:**
-- Grants permission to use, reproduce, distribute, or display creative works (text, software, music, etc.)
-- Can be exclusive or non-exclusive, with specific usage rights and duration defined
-- Protects original expression of ideas rather than the ideas themselves
+- Grants permission to use, reproduce, distribute, or display creative works (text, software, music, etc.).
+- Can be exclusive or non-exclusive, with specific usage rights and duration defined.
+- Protects original expression of ideas rather than the ideas themselves.
 
 ---
 
@@ -169,27 +181,27 @@ IP documents prove legal ownership of intangible assets like inventions, designs
 High quality (above and beyond) support from vendors is highly beneficial to both the vendor and the customer.
 
 Examples of vendor support excellence:
-- Learning customers individual needs, every customer has different expectations
-- Rapid response times with 24/7 availability
-- Clear communication throughout the resolution process
-- Seamless escalation processes for complex issues
-- Follow-ups to ensure satisfaction
-- Multichannel support (phone, email, chat, social media)
-- Going above and beyond the promised service
+- Learning customers individual needs, every customer has different expectations.
+- Rapid response times with 24/7 availability.
+- Clear communication throughout the resolution process.
+- Seamless escalation processes for complex issues.
+- Follow-ups to ensure satisfaction.
+- Multichannel support (phone, email, chat, social media).
+- Going above and beyond the promised service.
 
 Key benefits for the customer:
-- Quick problem resolution
-- Reduced stress when facing technical problems
-- Higher confidence in vendor relationship
-- Better ROI on IT investments
-- Improved ability to focus on core business activities
+- Quick problem resolution.
+- Reduced stress when facing technical problems.
+- Higher confidence in vendor relationship.
+- Better ROI on IT investments.
+- Improved ability to focus on core business activities.
 
 Key benefits for the service provider:
-- Increased customer retention and loyalty
-- Positive word-of-mouth and referrals
-- Reduced support costs through efficient processes
-- Differentiation from competitors
-- Better understanding of customer needs
-- Enhanced brand reputation and market position
+- Increased customer retention and loyalty.
+- Positive word-of-mouth and referrals.
+- Reduced support costs through efficient processes.
+- Differentiation from competitors.
+- Better understanding of customer needs.
+- Enhanced brand reputation and market position.
 
 ---

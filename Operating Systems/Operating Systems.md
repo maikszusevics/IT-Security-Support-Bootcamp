@@ -1,6 +1,6 @@
 # Operating Systems
 
-An **Operating System (OS)** is the foundational software layer that enables communication between a computer's hardware and the applications that run on it. It manages system resources such as the CPU, memory, storage, and input/output devices, providing users with a coherent interface to interact with the system.
+The foundational software layer that facilitates communication between the hardware of the computer and the programs that run on it is called an operating system (OS). Allocating system resources, including the CPU, memory, storage, and input/output devices, is the responsibility of the operating system. Most modern OSes provide users with a coherent graphical user interface (GUI) to interact with the system.
 
 ---
 
@@ -8,77 +8,84 @@ An **Operating System (OS)** is the foundational software layer that enables com
 
 ### Consumer Operating Systems
 
-These OSes are designed with end-users in mind, optimised for ease of use, compatibility with a wide range of hardware, and support for multimedia, productivity, and gaming applications.
+Accessibility is a priority in the design of these operating systems. They are designed to be user-friendly, compatible with a variety of hardware, and supportive of a large number of applications.
 
 #### Windows
 
-- Developed by Microsoft, Windows is one of the most widely used consumer OSes.
-- Known for its graphical interface, wide hardware support, and vast application ecosystem.
-- Versions include Windows 10, Windows 11.
-- Ideal for general-purpose computing, gaming, and productivity.
+- The most widely used of all consumer OSes.
+- Versions include Windows 10, Windows 11. (Windows 10 [support](https://github.com/maikszusevics/IT-Security-Support-Bootcamp/blob/main/Customer%20Support/Vendor%20Support.md) ends in October 14, 2025)
+- Perfect for general-purpose computing, productivity, and gaming.
 
 #### macOS
 
 - Developed by Apple for its Mac computers.
-- Built on a UNIX foundation with a polished graphical user interface.
-- Strong integration with Apple ecosystem (iCloud, iOS).
-- Known for stability, security, and design.
+- Built on a [UNIX](###Kernel) foundation with an aesthetic-centric graphical user interface.
+- Strong integration with Apple ecosystem.
+- Known for design, security, and stability.
 
 #### Linux (Desktop Distributions)
 
 - Open-source and highly customisable.
-- Popular distros include Ubuntu, Fedora, and Linux Mint.
+- Popular distributions: Ubuntu, Fedora, Mint, Manjaro, Pop!OS, EndeavourOS
 - Preferred by developers, system administrators, and privacy-conscious users.
-- Offers CLI and GUI options.
+- Offers CLI-only and GUI options.
 
 ---
 
 ### Server Operating Systems
 
-Server OSes are optimised for high performance, reliability, and continuous operation. They manage network services, host applications, and ensure secure data handling.
+Server OSes are optimised for high performance, reliability, and continuous operation. They are designed to manage network services, host applications, and ensure secure data handling.
 
 #### Windows Server
 
-- A suite of server-specific versions of Windows.
 - Includes features like Active Directory, IIS, and Group Policy.
-- Ideal for enterprise networks and hybrid environments.
+	- Active Directory: A proprietary type of database developed by Microsoft for organisational IT management.  
+	- Group Policy: A Windows Server tool designed to facilitate the creation and enforcing of settings and rules in the Active Directory.
+	- Internet Information Services (IIS): Software designed to provide the website hosting capability to servers.  
+
+- Ideal for organisational management.
 
 #### Linux Server
 
-- Open-source, modular, and efficient.
-- Common distributions include Ubuntu Server, CentOS, Debian, and Red Hat Enterprise Linux.
-- Dominates web hosting and cloud infrastructure.
-- Highly configurable and secure.
+- Includes features like LDAP, Apache/Nginx, and containerisation support.
+    - LDAP (Lightweight Directory Access Protocol): A standardised protocol used as a foundation to create Linux based directories similar to Active Directory by Microsoft
+    - Apache/Nginx: Open-source web server software that provides website hosting capabilities.
+    - Containerisation: Native support for Docker, Kubernetes, and other container technologies for application deployment and secure isolation.
 
-#### macOS Server (Deprecated)
+- Ideal for flexibility, customisation, and cost-effectiveness.
 
-- Formerly a server version of macOS.
-- Focused on small office/home office environments.
-- Apple has phased out most features in favor of third-party services.
+#### macOS Server
+
+- Includes features like Open Directory, Profile Manager, and Xsan network file sharing.
+    - Open Directory: Apple's equivalent to Active Directory.
+    - Profile Manager: Apple's equivalent to Group Policy
+    - Xsan: Network file system for sharing storage volumes across multiple Mac systems.
+
+- Ideal for managing Apple-centric environments and creative workflows.
 
 ---
 
 ### Mobile Operating Systems
 
-Mobile OSes are designed for smartphones, tablets, and other portable devices. They are optimised for touchscreen interaction, power efficiency, and wireless connectivity.
+Mobile OSes are designed for portable devices. They are optimised for touchscreen interaction, power efficiency, and wireless connectivity.
 
 #### Android
 
 - Developed by Google; the most popular mobile OS worldwide.
 - Open-source with heavy OEM customisation.
-- Supports millions of apps via Google Play Store.
+- Most popular mobile OS.
 
 #### iOS
 
 - Developed by Apple for iPhones and iPads.
-- Known for performance, security, and seamless user experience.
-- Closed ecosystem with curated app store.
+- Known for performance, security, and particular user experience.
+- Closed source ecosystem
 
 #### Fuchsia (Google)
 
 - An experimental OS built from scratch (not based on Linux).
 - Uses Zircon kernel.
-- Intended to unify various device platforms under one OS.
+- Intended to unify various device platforms (IoT, Mobile) under one OS.
 
 #### Windows Mobile (Discontinued)
 
@@ -99,7 +106,7 @@ These OSes run primarily through the cloud and are accessed via web browsers. Th
 
 - Lightweight OS built around the Chrome browser.
 - Used in Chromebooks, popular in education and enterprise.
-- Pros: Fast, secure (verified boot), long battery life, low hardware demands.
+- Pros: Fast, secure, long battery life, low hardware demands.
 - Cons: Limited offline functionality, not suited for high-end applications or gaming.
 
 #### Windows 365 (Microsoft)
@@ -132,44 +139,44 @@ IoT OSes are designed for embedded systems and devices with limited computing po
 
 ### Kernel
 
-The kernel is the foundational component of an operating system, serving as the core that controls all basic functions. It loads first during startup and remains in memory throughout system operation.
-
-**Kernel Space vs. User Space:**
-
-- **Kernel Space**: A protected memory area where the kernel executes with privileged access to hardware and system resources. Code running here has unrestricted access to the CPU and memory.
-- **User Space**: Where regular applications run with limited privileges. Programs in user space must request kernel services through system calls when they need to access hardware or perform privileged operations.
-
-**Types:**
-
-- **Monolithic Kernels**: All services run in kernel space, providing direct access to resources
-- **Microkernels**: Minimal functionality in kernel space, with most services in user space
-- **Hybrid Kernels**: Blend both approaches for balance between performance and security
-
-**Primary Functions:**
-
-- **Memory Management**: Controls memory allocation for system processes and applications
-- **Process Management**: Schedules and coordinates program execution
-- **Device Management**: Enables I/O with hardware through device drivers
-- **File System Operations**: Manages data storage and retrieval
-
-**Security Aspects:**
-
-- Kernel vulnerabilities are particularly serious as they can affect the entire system
-- Separation between kernel space and user space provides essential security boundaries
-- Kernel exploits often target breaking this separation to gain elevated privileges 
-
-#### Notable Kernels
-
-- **Unix Kernel**: The original kernel that established the foundation for modern operating systems.
-    
-- **Linux Kernel**: The most widely used open-source kernel, powers Linux distributions, Android devices, and many embedded systems.
-    
-- **Windows NT Kernel**: Microsoft's proprietary hybrid kernel that powers all modern Windows operating systems.
-    
-- **BSD Kernel**: A Unix-derived kernel that focuses on stability and security, used in FreeBSD, OpenBSD, and as the foundation for macOS.
-    
-- **XNU Kernel**: Apple's hybrid kernel that powers macOS, iOS, iPadOS, watchOS, and tvOS.
-    
+The kernel is the foundational component of every operating system, serving as the core that controls all basic functions. It loads first during startup and is in memory throughout system operation.  
+  
+**Kernel Space vs. User Space:**  
+  
+- **Kernel Space**: A protected memory area where the kernel executes with privileged access to hardware and system resources. Code running here has unrestricted access to the CPU and memory.  
+- **User Space**: Where regular applications run with limited privileges. Programs in user space must request kernel services through system calls when they need to access hardware or perform privileged operations.  
+  
+**Types:**  
+  
+- **Monolithic Kernels**: All services run in the kernel space, providing direct access to resources  
+- **Microkernels**: Minimal functionality in the kernel space, with most services and applications in user space  
+- **Hybrid Kernels**: Blend both approaches for balance between performance and security  
+  
+**Primary Functions:**  
+  
+- **Memory Management**: Controls memory allocation for system processes and applications  
+- **Process Management**: Schedules and coordinates program execution  
+- **Device Management**: Enables I/O with hardware through device drivers  
+- **File System Operations**: Manages data storage and retrieval  
+  
+**Security Aspects:**  
+  
+- Kernel vulnerabilities are particularly serious as they can affect the entire system  
+- Separation between kernel space and user space provides essential security boundaries  
+- Kernel exploits often target breaking this separation to gain elevated privileges  
+  
+#### Notable Kernels  
+  
+- **Unix Kernel**: The original kernel that established the foundation for modern operating systems.  
+  
+- **Linux Kernel**: The most widely used open-source kernel, powers Linux distributions, Android devices, and many embedded systems.  
+  
+- **Windows NT Kernel**: Microsoft's proprietary hybrid kernel that powers all modern Windows operating systems.  
+  
+- **BSD Kernel**: A Unix-derived kernel that focuses on stability and security, used in FreeBSD, OpenBSD.  
+  
+- **XNU Kernel**: Apple's hybrid kernel that powers macOS, iOS, iPadOS, watchOS, and tvOS. Incorporates a significant portion of FreeBSD kernel environment.  
+  
 - **Zircon**: Google's microkernel that powers the Fuchsia operating system, designed with modern devices and security in mind.
 ### Drivers
 
@@ -239,4 +246,18 @@ Hardening is the process of securing an OS against vulnerabilities.
 - Implement firewalls and antivirus.
 - Use encryption and strong authentication.
 - Kernel hardening techniques 
+	-  1. Address Space Layout Randomization (ASLR)
+		- Randomly arranges memory addresses used by the system
+		- Like rearranging furniture so an intruder can't find things in the dark
+	- 2. Privilege Separation
+		- Divides the kernel into parts with different permission levels
+		- Similar to having separate keys for different rooms in a building
+	- 3. Kernel Module Signing
+		- Only allows trusted code to be loaded into the kernel
+		- Like checking ID before allowing entry to a secure building
+	- 4. Secure Boot
+		- Verifies system integrity before starting up
+		- Ensures the system hasn't been tampered with, like a tamper-evident seal
 ---
+
+

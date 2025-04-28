@@ -174,19 +174,19 @@ These tools help analyse, repair, and monitor software environments.
 
 - **Command Line Interface (CLI)**  
     Tools like `ping`, `tracert`, `ipconfig/ifconfig`, `netstat`, `nslookup`, `top/htop`, `tasklist`, and `chkdsk` help diagnose connectivity, performance, and system health issues.
-    
+
 - **Event Viewer (Windows)**  
     Logs system events, errors, warnings, and audit messages.
-    
+
 - **Task Manager / Activity Monitor**  
     Shows real-time resource usage and running processes.
-    
+
 - **System Logs (Linux/macOS)**  
     View `/var/log/syslog`, `/var/log/dmesg`, or journalctl for hardware and kernel issues.
-    
+
 - **Safe Mode / Clean Boot**  
     Starts the system with minimal drivers/services to isolate issues.
-    
+
 - **System Restore / Rollback Utilities**  
     Restore systems to a previous known-good configuration.
 

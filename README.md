@@ -8,7 +8,7 @@ It serves as both a learning archive and a living portfolio of my technical grow
 
 ### Core Bootcamp Modules
 
-The bootcamp is organized into themed folders based on weekly focus areas. Each folder contains Markdown files that break down key concepts, tools, and methods covered in live sessions and on-demand content.
+The bootcamp is organised into themed folders based on weekly focus areas. Each folder contains Markdown files that break down key concepts, tools, and methods covered in live sessions and on-demand content.
 
 - `Operating Systems/` – Introduction to operating systems and system fundamentals  
 - `Customer Support/` – Stakeholder communication, virtual teams, and customer-facing skills  
@@ -22,7 +22,7 @@ The bootcamp is organized into themed folders based on weekly focus areas. Each 
 
 ### Learning (External Courses)
 
-The `Learning/` directory documents my learning outside the core bootcamp, focusing on technical skills practise and overall IT knowledge
+The `Learning/` directory documents my learning outside the core bootcamp, focusing on technical skills, troubleshooting documentation practise, and overall IT knowledge.
 
 ---
 

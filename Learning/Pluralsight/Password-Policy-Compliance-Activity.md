@@ -57,7 +57,7 @@ _This is an extract of the relevant PCI DSS requirements that you are assessing 
 **8.3.9** If passwords/passphrases are used as the only authentication factor for user access (i.e., in any single-factor authentication implementation) then either:
 
 - Passwords/passphrases are changed at least once every 90 days, or
-- The security posture of accounts is dynamically analyzed, and real-time access to resources is automatically determined accordingly. 
+- The security posture of accounts is dynamically analysed, and real-time access to resources is automatically determined accordingly. 
 
 
 ---
