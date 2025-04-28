@@ -2,7 +2,15 @@
 
 ## Overview
 
-This documentation covers the installation and setup of EndeavourOS (an Arch-based Linux distro) as my main OS for personal learning, development, and cybersecurity training.  
+This documentation covers the installation and setup of EndeavourOS as my main OS for personal learning, development, and cybersecurity training.  
+
+### Why Endeavour?
+
+I have a few reasons:
+- It is built on **Arch Linux** - Which is a minimalist distribution that emphasises hands-on use of the terminal and has a steep learning curve. This will help hone my understanding over time.
+- Easy to install - Arch Linux is known to be more difficult to install than other distributions, but EndeavourOS uses the Calamares installer to streamline the process with a GUI.
+- Welcome App - EndeavourOS comes with a very useful welcome app which has all of the necessary links to learn everything you need.
+
 
 ---
 
