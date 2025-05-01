@@ -1,2 +1,0 @@
-# Windows Networking CLI Commands
-
