@@ -64,6 +64,11 @@ Each server role is specialised to handle a specific task or service within a ne
 - **Virtualisation Host**
     - Runs multiple virtual machines (VMs) on a single physical server.
     - Software used includes Hyper-V, VMware ESXi, or KVM.
+	    - VMs require:
+		    - CPU cores
+		    - RAM
+		    - Storage
+		    - NIC
 
 - **Domain Controller / Active Directory (AD)**
     - Centralises authentication and access control in a Windows environment.
