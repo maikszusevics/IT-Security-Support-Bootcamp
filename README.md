@@ -29,3 +29,8 @@ This repository is not only a record of learning but also a **portfolio of evide
 - All documentation is written in Markdown for clarity and compatibility.
 - This repository will be updated regularly as the bootcamp progresses.
 
+
+## Current Priorities:
+- Netacad - Packet Tracer
+- AZ900 on pluralsight
+- Comptia+ on pluralsight
