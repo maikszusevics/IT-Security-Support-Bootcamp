@@ -1,3 +1,5 @@
 # Ignore Obsidian configuration folder
 
 .obsidian/
+
+.rawnotes/

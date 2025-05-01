@@ -19,6 +19,7 @@
 - `command /?` or `command -help` – Shows help for a specific command.
 - `exit` – Closes the command prompt.
 - `pause` – Pauses execution and waits for the user to press a key.
+[Windows CLI Documentation](https://activedirectorypro.com/windows-cmd-commands/)
 
 ### linux command line
 
@@ -41,5 +42,7 @@
 - `top` – Displays real-time system and process usage.
 - `chmod` – Changes file permissions.
 - `chown` – Changes file ownership.
-- `ifconfig` (or `ip a`) – Shows network interface details.
+- `ip addr (or `ip a`) – Shows network interface details.
+- `ip route show` - shows default gateway
+- 
 

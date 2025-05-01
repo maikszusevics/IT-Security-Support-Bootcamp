@@ -23,6 +23,7 @@ An issue becomes apparent. A system, device, or application is not functioning a
 Begin gathering data, collect as many facts as possible.
 #### Ask these questions:
 
+- Is the physicality of the device as it should be?
 - What is not working as expected?
 - What _should_ be happening?
 - When did it last work correctly?
