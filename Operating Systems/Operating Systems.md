@@ -2,7 +2,6 @@
 
 The foundational software layer that facilitates communication between the hardware of the computer and the programs that run on it is called an operating system (OS). Allocating system resources, including the CPU, memory, storage, and input/output devices, is the responsibility of the operating system. Most modern OSes provide users with a coherent graphical user interface (GUI) to interact with the system.
 
----
 
 ## Types of Operating Systems
 

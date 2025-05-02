@@ -15,8 +15,8 @@ The bootcamp is organised into folders based on focus areas. Each folder contain
 - `Service Desk and Troubleshooting/` - Ticketing systems, vendor documentation, and troubleshooting  
 - `Infrastructure/` - Hardware, software, virtualisation, and cloud computing  
 - `Networking/` - TCP/IP, OSI model, network configuration, and security  
-- `Cybersecurity/` - Threats, controls, awareness, and frameworks   
-- `Learning/` - Pluralsight, W3Schools, Netacad, etc.
+- `Cybersecurity/` - Threats, controls, awareness, and frameworks
+- `Learning/` - Hands-on practise using resources like Pluralsight, W3Schools, Netacad, etc.
 
 
 ## Purpose
