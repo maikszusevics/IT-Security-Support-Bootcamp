@@ -1,4 +1,4 @@
-# Hardware and Hardware Configurations
+# Hardware Configurations
 
 Understanding the different types of computer systems, how, and ***why*** they are configured is foundational knowledge in IT support and infrastructure management. Hardware configurations can vary drastically depending on the system’s purpose.
 
