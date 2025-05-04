@@ -31,6 +31,7 @@ This repository is not only a record of learning but also a **portfolio of evide
 
 
 ## Current Priorities:
+- Burn-out management
 - Netacad - Packet Tracer
 - AZ900 on pluralsight
 - Comptia+ on pluralsight

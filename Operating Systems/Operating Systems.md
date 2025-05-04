@@ -13,7 +13,7 @@ Accessibility is a priority in the design of these operating systems. They are d
 
 - The most widely used of all consumer OSes.
 - Versions include Windows 10, Windows 11. (Windows 10 [support](https://github.com/maikszusevics/IT-Security-Support-Bootcamp/blob/main/Customer%20Support/Vendor%20Support.md) ends in October 14, 2025)
-- Perfect for general-purpose computing, productivity, and gaming.
+- Standard for general-purpose computing, productivity, and gaming.
 
 #### macOS
 

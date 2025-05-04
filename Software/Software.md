@@ -1,7 +1,5 @@
 # Software
 
-This document outlines key software concepts relevant to IT support, system administration, and cybersecurity roles.
-
 ## Application Types
 
 - **Desktop Applications**: Installed and run on a user's computer.
