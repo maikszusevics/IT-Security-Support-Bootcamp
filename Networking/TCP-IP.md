@@ -5,12 +5,12 @@
 
 Fundamentally, **the TCP/IP model exists to describe and facilitate data moving between software, hardware, and networks**. It’s divided into four layers, each responsible for a specific part of the transmission process.
 
-| Layer       | Description                                             | Example Protocols    |
-| ----------- | ------------------------------------------------------- | -------------------- |
-| Application | Provides networking capability to software applications | HTTP, DNS, FTP, SMTP |
-| Transport   | Ensures data arrives correctly                          | TCP, UDP             |
-| Internet    | Routes data across networks using IP addresses          | IP, ICMP             |
-| Link        | Handles direct connections between physical devices     | Ethernet, Wi-Fi, ARP |
+| Layer               | Description                                             | Example Protocols    |
+| ------------------- | ------------------------------------------------------- | -------------------- |
+| Application         | Provides networking capability to software applications | HTTP, DNS, FTP, SMTP |
+| Transport           | Ensures data arrives correctly                          | TCP, UDP             |
+| Internet            | Routes data across networks using IP addresses          | IP, ICMP             |
+| Link/Network Access | Handles direct connections between physical devices     | Ethernet, Wi-Fi, ARP |
 
 These layers work together to move data from one machine to another, whether that’s across a local network or the entire internet.
 
