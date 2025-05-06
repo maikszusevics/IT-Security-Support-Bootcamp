@@ -2,81 +2,152 @@
 
 ## Application Types
 
-- **Desktop Applications**: Installed and run on a user's computer.
-- **Web Applications**: Accessed via browsers using HTML, CSS, JavaScript.
-- **Databases**: Structured systems for storing and querying data.
-- **APIs**: Interfaces enabling communication between software components.
+Software applications can be categorized by platform and purpose:
+
+### By Platform
+
+- **Desktop Applications** – Installed directly on a user's computer (e.g., Microsoft Word, Photoshop).
+- **Mobile Applications** – Designed for smartphones or tablets, typically installed via app stores (e.g., WhatsApp, Spotify).
+- **Web Applications** – Accessed through a browser; rely on technologies like HTML, CSS, and JavaScript (e.g., Google Docs, Trello).
+
+### By Function
+
+- **Productivity Applications** – Tools that help users complete tasks (e.g., Microsoft Office, Notion).
+- **Entertainment Applications** – Games, media players, and streaming platforms (e.g., Steam, Netflix).
+- **Communication Applications** – Enable messaging and collaboration (e.g., Zoom, Slack).
+- **Utility Applications** – Support system maintenance or performance (e.g., antivirus, file managers).
+
+---
 
 ## Programming and Markup Languages
 
-- **Object-Oriented Programming (OOP)** is widely used in modern software development. Languages like Python, Java, and C# support OOP principles such as encapsulation, and inheritance.
-- **Markup Languages** like HTML and XML are designed to be human-readable and use simple syntax involving tags.
+### Programming Concepts
 
-### Website Development – House Analogy
+- **Object-Oriented Programming (OOP)** – A programming paradigm based on objects that contain data and behavior. Key principles include:
+    
+    - **Encapsulation** – Bundling data with methods.
+    - **Inheritance** – Deriving new classes from existing ones.
+    - **Polymorphism** – Methods behaving differently based on context.
+    - Languages: Python, Java, C#, C++.
+- **Common Functions in Programming**
+    
+    - `if/else` – Conditional logic
+    - `while` loop – Repeats code while a condition is true
+    - `for` loop – Iterates over sequences
+    - `do...while` loop – Runs at least once before checking the condition
 
-- **HTML** – The foundation of the house (structure).
-- **CSS** – The interior design (styling, appearance).
-- **JavaScript** – The moving parts (interactivity like doors and windows).
-  
-**Client-side**: HTML, CSS, JavaScript  
-**Server-side**: PHP, Node.js, etc.
+### Markup Languages
+
+- **HTML** – Structures content on the web.
+- **XML** – Used for data storage and transport with strict formatting.
+- **Markdown (MD)** – Lightweight syntax for formatting text.
+
+### JavaScript
+
+JavaScript is a **high-level scripting language** widely used in web development for:
+
+- Real-time content manipulation
+- Interactive user interfaces
+- Communicating with APIs (e.g., via `fetch` or `XMLHttpRequest`)
+- Server-side development (Node.js)
+- Mobile and desktop app development via frameworks (React Native, Electron)
+
+### PHP
+
+A server-side scripting language used for building dynamic web applications.
+
+- Commonly embedded in HTML.
+- Powers platforms like WordPress and content management systems.
+
+
+## Website Development – House Analogy
+
+Think of a website like a house:
+
+|Component|Purpose|Analogy|
+|---|---|---|
+|**HTML**|Structure|The house's framework and walls|
+|**CSS**|Appearance|The interior/exterior design|
+|**JavaScript**|Interactivity|The moving parts – doors, switches, etc.|
+
+- **Client-side technologies**: HTML, CSS, JavaScript – run in the user's browser.
+- **Server-side technologies**: PHP, Node.js, Python – run on a web server.
+- 
 
 ## Data Traffic & Data Sources
 
-### Common Forms of Data Traffic
+### Common Types of Data Traffic
 
-- Video/Audio streaming
-- API calls
-- HTTP/HTTPS web traffic
-- File transfers (e.g., FTP)
-- DNS resolution requests
-- General network protocol traffic
+- **Streaming** – Continuous transmission of audio/video.
+- **API Calls** – Requests between systems for data or functionality.
+- **Web Traffic** – HTTP/HTTPS data sent between browsers and servers.
+- **File Transfers** – E.g., FTP, SMB, or cloud syncing tools.
+- **DNS Queries** – Resolving domain names to IP addresses.
+- **Protocol Traffic** – Packets from networking protocols (e.g., ARP, ICMP, DHCP).
 
 ### Data Sources
 
-Applications often interact with multiple data sources, including:
-- Databases
-- Web services
-- External APIs
+Applications interact with various data sources, such as:
 
-These sources may contain **sensitive data**, requiring protection through encryption and secure transmission.
+- **Databases** (e.g., SQL, NoSQL)
+- **Web Services** (RESTful or SOAP)
+- **External APIs** (e.g., weather, maps, financial data)
+
+> These often involve **sensitive data** and must be protected using encryption, authentication, and secure transmission protocols.
+
+---
 
 ## Data Security – The Three States of Data
 
-| State        | Description                                                  | Protection Method         |
-|--------------|--------------------------------------------------------------|---------------------------|
-| **At Rest**  | Stored data on disk                                          | BitLocker, full-disk encryption |
-| **In Transit** | Data being transferred between systems                      | VPN, TLS/SSL              |
-| **In Process** | Data being actively used in memory or CPU                   | TPM (Trusted Platform Module) |
+Data exists in one of three states. Each requires specific protection strategies:
 
-**TPM** stores encryption keys securely and creates a trusted execution environment.
+|**State**|**Description**|**Protection Methods**|
+|---|---|---|
+|**At Rest**|Stored data (e.g., on disk or backup)|Full-disk encryption (BitLocker, LUKS)|
+|**In Transit**|Moving across a network|TLS/SSL, VPNs, HTTPS|
+|**In Process**|Actively used in RAM or CPU|Hardware-based protection (e.g., TPM)|
 
+- **TPM (Trusted Platform Module)** – Hardware chip that stores cryptographic keys securely and ensures integrity of boot processes and memory use.
+
+---
 
 ## Windows Deployment Services (WDS)
 
-- WDS automates OS installations across a network.
-- Useful for provisioning both physical and virtual machines.
-- Ideal for deploying standardized system images across organizations.
+- **WDS** is a Microsoft service for deploying operating systems over a network.
+- Used to **remotely install Windows images** onto multiple client machines.
+- Reduces setup time and enforces consistency across:
+    - Physical desktop        
+    - Virtual machines
+    - Enterprise labs
+
+Use cases:
+
+- Educational labs
+- Enterprise IT onboarding
+- Standardized device imaging
+
 
 
 ## APIs (Application Programming Interfaces)
 
-APIs enable seamless communication and functionality integration between software components.
+APIs allow software components to **communicate, share data, and delegate functionality**.
 
-### Types of APIs
+### Common Types of APIs
 
-- **Web APIs** – Use web protocols (HTTP/S) for communication.
-- **Library APIs** – Provide a set of callable functions with documentation, can operate in offline environments.
-- **Operating System APIs** – Allow applications to interface with the OS.
-- **Hardware APIs** – Provide access to physical components and peripherals.
+|**Type**|**Purpose**|
+|---|---|
+|**Web APIs**|REST or SOAP over HTTP/S to connect applications online|
+|**Library APIs**|Internal toolkits and software libraries (offline use)|
+|**Operating System APIs**|Interfaces with OS services (e.g., file systems, networking)|
+|**Hardware APIs**|Allow apps to interact with physical components (GPU, camera)|
 
-### API Analogy – Restaurant
 
-| Component        | Analogy                                      |
-|------------------|----------------------------------------------|
-| Application      | Customer ordering a meal                     |
-| OS API           | Waitstaff taking the order                   |
-| Driver           | Chef preparing the meal                      |
-| Hardware API     | Kitchen equipment (stove, pans, etc.)        |
-| Final Experience | Customer enjoying the dish                   |
+### API Analogy – The Restaurant Model
 
+|**Component**|**Analogy**|
+|---|---|
+|Application|A customer ordering food|
+|OS API|The waiter taking the order|
+|Driver|The chef who understands the recipe|
+|Hardware API|The kitchen tools used to prepare the meal|
+|Response/Data|The dish served to the customer|
