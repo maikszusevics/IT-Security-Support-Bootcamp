@@ -49,6 +49,8 @@ Document progress in building a simple network and verifying end device connecti
 - DHCP enabled
 
 ![](Images/dhcp.png)
+
+
 	 - Used PC desktop and Command Prompt to verify IP address received via `ipconfig -all`
 	 ![](Images/cmd.png)
 	 ![](Images/ipconfig.png)
@@ -56,6 +58,7 @@ Document progress in building a simple network and verifying end device connecti
 	- Used command `ping cisco.srv`
 
 		![](Images/ping.png)
+
 
 
 ---
@@ -66,12 +69,18 @@ Document progress in building a simple network and verifying end device connecti
 - Powered off Laptop
 
 - ![](Images/pwr.png)
+
+
 - Removed Ethernet Module
 
 	![](Images/pwroff.png)
+
+
 - Installed Wireless WPC300N Module
 
 	![](Images/wpc.png)
+
+
 - Powered on Laptop
 
 	![](Images/pwron.png) 
@@ -80,16 +89,23 @@ Document progress in building a simple network and verifying end device connecti
 -  Connected to `HomeNetwork` via PC Wireless
 
 	![](Images/wirless.png)
+
 	![](Images/hmnetwork.png)
+
 -  DHCP enabled and IP Address received
 
 	![](Images/lapdh.png)
+
 	![](Images/lapip.png)
+
 - Verified connectivity using web browser (`cisco.srv`)
 
 	![](Images/web.png)
 
+
 ![](Images/final.png)
+
+
 
 ---
 
