@@ -1,4 +1,3 @@
-
 # Understanding the TCP/IP Stack
 
 ## Overview of the TCP/IP Model

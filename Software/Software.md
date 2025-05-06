@@ -2,7 +2,7 @@
 
 ## Application Types
 
-Software applications can be categorized by platform and purpose:
+Software applications can be categorised by platform and purpose:
 
 ### By Platform
 
@@ -17,20 +17,25 @@ Software applications can be categorized by platform and purpose:
 - **Communication Applications** – Enable messaging and collaboration (e.g., Zoom, Slack).
 - **Utility Applications** – Support system maintenance or performance (e.g., antivirus, file managers).
 
----
-
 ## Programming and Markup Languages
+
+High level programming languages can be learned by humans because it is human readable.
+
+Low level programming languages are made to be understood by machines. They are a step above binary.
+
+Software written in high level programming languages needs to be translated for the processor to be able to ready it.
+
+Compilers and Interpreters do the translation of high level programming languages into low level programming languages (in binary)
 
 ### Programming Concepts
 
 - **Object-Oriented Programming (OOP)** – A programming paradigm based on objects that contain data and behavior. Key principles include:
-    
     - **Encapsulation** – Bundling data with methods.
     - **Inheritance** – Deriving new classes from existing ones.
     - **Polymorphism** – Methods behaving differently based on context.
     - Languages: Python, Java, C#, C++.
+
 - **Common Functions in Programming**
-    
     - `if/else` – Conditional logic
     - `while` loop – Repeats code while a condition is true
     - `for` loop – Iterates over sequences
@@ -59,6 +64,18 @@ A server-side scripting language used for building dynamic web applications.
 - Commonly embedded in HTML.
 - Powers platforms like WordPress and content management systems.
 
+### Compiled vs Interpreted Languages
+
+Compiled languages are converted directly into machine code.
+- They tend to be faster and more efficient 
+- More control over hardware aspects 
+- C, C++, Erlang, Haskell, Rust, Go
+
+Interpreted languages run through a program line by line.
+
+- Interpreted languages were once significantly slower than compiled languages. Today the gap is much closer.
+- Examples of common interpreted languages are PHP, Ruby, Python, and JavaScript
+
 
 ## Website Development – House Analogy
 
@@ -72,7 +89,7 @@ Think of a website like a house:
 
 - **Client-side technologies**: HTML, CSS, JavaScript – run in the user's browser.
 - **Server-side technologies**: PHP, Node.js, Python – run on a web server.
-- 
+
 
 ## Data Traffic & Data Sources
 
@@ -134,13 +151,11 @@ APIs allow software components to **communicate, share data, and delegate functi
 
 ### Common Types of APIs
 
-|**Type**|**Purpose**|
-|---|---|
-|**Web APIs**|REST or SOAP over HTTP/S to connect applications online|
-|**Library APIs**|Internal toolkits and software libraries (offline use)|
-|**Operating System APIs**|Interfaces with OS services (e.g., file systems, networking)|
-|**Hardware APIs**|Allow apps to interact with physical components (GPU, camera)|
 
+- **Web APIs** - Use web protocols (HTTP/S) for communication.
+- **Library APIs** – Provide a set of callable functions with documentation, can operate in offline environments. 
+- **Operating System APIs** – Allow applications to interface with the OS. 
+- **Hardware APIs** – Allow apps to interact with physical components (GPU, camera)
 
 ### API Analogy – The Restaurant Model
 

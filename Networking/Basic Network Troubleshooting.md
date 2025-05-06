@@ -8,7 +8,7 @@ The **loopback interface** is a special network interface used for testing the T
 
 - `ping localhost`
 
-This test ensures that the [TCP/IP](/Networking/TCP-IP) stack is functioning, as the request never leaves the system.
+This test ensures that the [TCP/IP](TCP-IP%20Stack.md) stack is functioning, as the request never leaves the system.
 
 
 # Network Troubleshooting – Basic Ping Checks

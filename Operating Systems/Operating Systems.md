@@ -202,12 +202,14 @@ Drivers are software that allows the OS to communicate with hardware peripherals
 
 ### Windows
 
+- Uses NTFS (new tech file system)
 - Uses drive letters (e.g., C:, D:).
 - Root directory usually C:.
 - Common directories: Program Files, Users, Windows.
 
 ### Linux
 
+- Uses
 - Root directory is "/".
 - Follows a hierarchical structure.
 - Common directories: /bin, /etc, /home, /var, /usr.
