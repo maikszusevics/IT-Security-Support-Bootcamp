@@ -51,9 +51,12 @@ Document progress in building a simple network and verifying end device connecti
 ![](Images/dhcp.png)
 
 
-	 - Used PC desktop and Command Prompt to verify IP address received via `ipconfig -all`
+
+- Used PC desktop and Command Prompt to verify IP address received via `ipconfig -all`
 	 ![](Images/cmd.png)
+
 	 ![](Images/ipconfig.png)
+
 - Pinged `cisco.srv`
 	- Used command `ping cisco.srv`
 
@@ -68,7 +71,7 @@ Document progress in building a simple network and verifying end device connecti
 #### Hardware Setup
 - Powered off Laptop
 
-- ![](Images/pwr.png)
+	 ![](Images/pwr.png)
 
 
 - Removed Ethernet Module
