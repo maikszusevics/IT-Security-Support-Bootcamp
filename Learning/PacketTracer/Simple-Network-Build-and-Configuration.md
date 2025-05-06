@@ -19,7 +19,9 @@ Document progress in building a simple network and verifying end device connecti
 | PC          | MaiksPC          |
 | Laptop      | MaiksLaptop      |
 | Cable Modem | LocalModem       |
+
 - Select device -> Config -> Rename
+
 ![](Images/config.png)
 ![](Images/name0.png)
 ### Step 3: Physical Cabling
@@ -43,13 +45,16 @@ Document progress in building a simple network and verifying end device connecti
 ## Part 2: Configure End Devices and Verify Connectivity
 
 ### Step 1: PC Configuration
+
 - DHCP enabled
+
 ![](Images/dhcp.png)
 	 - Used PC desktop and Command Prompt to verify IP address received via `ipconfig -all`
 	 ![](Images/cmd.png)
 	 ![](Images/ipconfig.png)
 - Pinged `cisco.srv`
 	- Used command `ping cisco.srv`
+
 		![](Images/ping.png)
 
 
@@ -59,22 +64,29 @@ Document progress in building a simple network and verifying end device connecti
 
 #### Hardware Setup
 - Powered off Laptop
+
 - ![](Images/pwr.png)
 - Removed Ethernet Module
+
 	![](Images/pwroff.png)
 - Installed Wireless WPC300N Module
+
 	![](Images/wpc.png)
 - Powered on Laptop
+
 	![](Images/pwron.png) 
 
 #### Wireless Setup
 -  Connected to `HomeNetwork` via PC Wireless
+
 	![](Images/wirless.png)
 	![](Images/hmnetwork.png)
 -  DHCP enabled and IP Address received
+
 	![](Images/lapdh.png)
 	![](Images/lapip.png)
 - Verified connectivity using web browser (`cisco.srv`)
+
 	![](Images/web.png)
 
 ![](Images/final.png)
