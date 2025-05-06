@@ -33,7 +33,6 @@ At the top layer (Application layer), the **payload** is the actual data you're 
 During each **encapsulation**, the entire transmission including all headers/footers of previous layers becomes the new **payload**.
 
 
-
 ## TCP/IP Layer Summary
 
 #### Application Layer
@@ -52,7 +51,9 @@ During each **encapsulation**, the entire transmission including all headers/foo
 - Connects devices on the same network segment, uses Ethernet, Wi-Fi, or ARP for address resolution
 - Uses MAC addresses to ensure specific device connections.
 
+### Intersection of OSI and TCP/IP
 
+The OSI and TCP/IP models both explain network communication, but differ in structure and application. OSI is a theoretical seven-layer model used for teaching, while TCP/IP is a practical four-layer model that runs the internet. TCP/IP simplifies OSI by condensing its seven layers into four: Application (combining OSI's top three layers), Transport, Internet (equivalent to OSI's Network layer), and Network Interface (combining OSI's bottom two layers). OSI provides detailed theoretical understanding, while TCP/IP is more relevant for real-world network implementation and troubleshooting.
 
 ## Next Steps
 

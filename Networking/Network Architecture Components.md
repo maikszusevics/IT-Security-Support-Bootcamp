@@ -46,9 +46,7 @@ A **Network Interface Card** (NIC) enables a computer to connect to a network.
     - **Fiber Modems** – Use optical fiber and may include media converters.
 - In modern networks, modem functionality is often combined with the router in a **single device** (called a gateway or home hub).
 
-### Additional Network Components
-
-#### **Access Point (AP)**
+#### **Access Point (AP)/Wireless Access Point (WAP)**
 
 - Extends a wired network by providing **wireless connectivity**.
 - Usually connects to a router or switch.
@@ -61,8 +59,30 @@ A **Network Interface Card** (NIC) enables a computer to connect to a network.
 - Often integrated into routers or gateways.
 - May operate across **multiple OSI layers**, depending on implementation.
 
+#### **DNS Server**
+- Resolves domain names (e.g., `example.com`) into IP addresses.
+- Essential for browsing the web and accessing network resources.
+
+#### **DHCP Server**
+- Automatically assigns IP addresses to devices on a network.
+- Reduces manual configuration and ensures efficient IP address management.
 #### **Hub** (Legacy)
 
 - Operates at **Layer 1** (Physical Layer).
 - Broadcasts incoming traffic to all ports, regardless of destination.
 - Largely replaced by switches due to performance and security limitations.
+
+## Home router vs Enterprise configurations
+
+The average home router is actually much more than a router, it can be up to 8 or more different network components in one:
+
+Home routers typically are:
+1. **Router** - Directs traffic between networks (your home network and the internet)
+2. **Switch** - Connects multiple devices on your local network
+3. **Wireless Access Point** - Provides WiFi connectivity
+4. **Firewall** - Filters traffic based on security rules
+5. **DHCP Server** - Assigns IP addresses to devices on your network
+6. **NAT (Network Address Translation)** - Translates private IP addresses to a single public IP
+7. **DNS Relay/Cache** - Handles domain name resolution requests
+
+However, in an enterprise environment, all of these functions would be controlled by discrete hardware. This is to ensure customisation and configurability of the network.
