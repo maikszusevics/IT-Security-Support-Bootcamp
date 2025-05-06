@@ -1,6 +1,6 @@
 # Types of Networks and Their Purpose
 
-Computer networks enable the interconnection of devices for the sharing of data, resources, and services. Broadly, network architectures can be categorized into two main types:
+Computer networks enable the interconnection of devices for the sharing of data, resources, and services. Broadly, network architectures can be categorized into two types:
 
 ## Network Types
 

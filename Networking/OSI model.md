@@ -38,7 +38,7 @@ The **OSI (Open Systems Interconnection)** model is a conceptual framework that 
 - **Role**: Establishes, manages, and ends communication sessions between applications.
 - **Responsibilities**:
   - Session establishment and teardown
-  - Synchronization
+  - Synchronisation
 - **Examples**: NetBIOS, RPC (Remote Procedure Call).
 
 ## Layer 6 - Presentation
@@ -64,13 +64,13 @@ The OSI and TCP/IP models both explain network communication, but differ in stru
 
 ## Summary Table
 
-| Layer | Name         | Description                                  | Examples                          |
-|-------|--------------|----------------------------------------------|-----------------------------------|
-| 7     | Application   | End-user services and network apps           | HTTP, FTP, DNS                    |
-| 6     | Presentation  | Format translation, encryption, compression | SSL/TLS, JPEG, MPEG               |
-| 5     | Session       | Manages sessions between applications        | NetBIOS, RPC                      |
-| 4     | Transport     | Reliable data transfer between hosts         | TCP, UDP, ports                   |
-| 3     | Network       | Routing and logical addressing               | IP, routers                       |
-| 2     | Data Link     | Local addressing and error detection         | MAC, Ethernet                     |
-| 1     | Physical      | Hardware transmission of raw bits           | Cables, radio signals, NICs       |
+| Layer | Name         | Description                                 | Examples                    |
+| ----- | ------------ | ------------------------------------------- | --------------------------- |
+| 7     | Application  | End-user services and network apps          | HTTP, FTP, DNS              |
+| 6     | Presentation | Format translation, encryption, compression | SSL/TLS, JPEG, MPEG         |
+| 5     | Session      | Manages sessions between applications       | NetBIOS, RPC                |
+| 4     | Transport    | Reliable data transfer between hosts        | TCP, UDP, ports             |
+| 3     | Network      | Routing and logical addressing              | IP, routers                 |
+| 2     | Data Link    | Local addressing and error detection        | MAC, Ethernet               |
+| 1     | Physical     | Hardware transmission of raw bits           | Cables, radio signals, NICs |
 
