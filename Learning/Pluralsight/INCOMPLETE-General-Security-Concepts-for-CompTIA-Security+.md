@@ -145,14 +145,36 @@ Identification is who you are. This can be labelled via username, securityID, sm
 
 ### Gap Analysis
 Process of identifying and evaluating the discrepancies or "gaps" between an organisation's current security measures and its desired or required security posture.
+- Identify vulnerabilities, weaknesses, and areas of improvement.
+- Enabling the development of a targeted strategy for enhacing cybersecurity defences and reducing the risk of cyber threats and attacks
 
 ### Zero Trust
+Zero trust is an evolution from the traditional **perimeter-based security**.
+Fundamentally, the principle is never automatically trust anything. No user, no device, no network component, regardless of any circumstance.
+
+**Least Privilege Access**
+
+**Micro-Segementation**
+
+**Continuous Monitoring** 
+
+**Multi-Factor Authentication (MFA)**
+
+**Device and User Identity Verification** 
+
+**Encryption**
+
+**Strict Access Control**
+
+**Assume Breach**
 #### Control Plane
+##### Policy Engine
+
+#### Policy Administrator
 ##### Adaptive Identity
 ##### Threat Scope Reduction
 ##### Policy-Driven Access Control
-##### Policy Administrator
-##### Policy Engine
+
 
 ### Data Plane
 
