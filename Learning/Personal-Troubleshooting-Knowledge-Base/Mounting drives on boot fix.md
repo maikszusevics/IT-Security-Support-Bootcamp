@@ -22,6 +22,7 @@ Initial theory:
 Ran the following:
 
 `lsblk -f`
+
 ![](Images/lsblk.png)
 
 This displayed the UUIDs, filesystem types, and mountpoints.
@@ -30,6 +31,7 @@ This displayed the UUIDs, filesystem types, and mountpoints.
 **Check `/etc/fstab`**
 
 `cat /etc/fstab`
+
 ![](Images/cat.png)
 
 Only root and a few system partitions (like `/home`, `/var`, `/boot/efi`) were listed.
