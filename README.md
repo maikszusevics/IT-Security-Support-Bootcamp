@@ -17,6 +17,7 @@ The bootcamp is organised into folders based on focus areas. Each folder contain
 - `Networking/` - TCP/IP, OSI model, network configuration, and security  
 - `Cybersecurity/` - Threats, controls, awareness, and frameworks
 - `Learning/` - Hands-on practise using resources like Pluralsight, W3Schools, Netacad, etc.
+- `CV/` - CV, Personal Statement, etc.
 
 
 ## Purpose
@@ -31,7 +32,7 @@ This repository is not only a record of learning but also a **portfolio of evide
 
 
 ## Current Priorities:
-- Burn-out management
-- Netacad - Packet Tracer
-- AZ900 on pluralsight
-- Comptia+ on pluralsight
+- Burnout management
+- CompTIA Security+ on Pluralsight
+- TryHackMe hands-on learning
+- Cisco Packet Tracer course
