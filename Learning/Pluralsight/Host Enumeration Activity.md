@@ -33,7 +33,7 @@ Adding  ```> ipaddrdetails.txt``` to the end of the command will save the outpu
 ```cat``` This command displays the contents of a file
 
 
-![](Images/cat.png)
+![](Learning/Pluralsight/Images/cat.png)
 
 
 ```ifconfig``` Command is similar to ```ipaddr``` but more detailed.
