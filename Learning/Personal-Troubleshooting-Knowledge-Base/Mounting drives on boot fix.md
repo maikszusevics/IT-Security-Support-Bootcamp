@@ -22,7 +22,7 @@ Initial theory:
 Ran the following:
 
 `lsblk -f`
-![](lsblk.png)
+![](Images/lsblk.png)
 
 This displayed the UUIDs, filesystem types, and mountpoints.
 
@@ -30,7 +30,7 @@ This displayed the UUIDs, filesystem types, and mountpoints.
 **Check `/etc/fstab`**
 
 `cat /etc/fstab`
-![](Learning/Personal-Troubleshooting-Knowledge-Base/Images/cat.png)
+![](Images/cat.png)
 
 Only root and a few system partitions (like `/home`, `/var`, `/boot/efi`) were listed.
 
@@ -61,7 +61,7 @@ Plan:
 Ran:
 `lsblk -f`
 
-![](lsblk.png)
+![](Images/lsblk.png)
 >/dev/sdc3 is only mounted on /mnt/windows because I've been manually mounting it when I need access to documents in my old documents folder
 
 Collected UUIDs for the following partitions:
@@ -90,7 +90,7 @@ Used the command:
 
 
 
-![](create.png)
+![](Images/create.png)
 
 
 ### Step 4: Edit `/etc/fstab`
@@ -99,7 +99,7 @@ Opened with:
 
 `sudo nano /etc/fstab`
 
-![](nan.png)
+![](Images/nan.png)
 
 Added entries:
 
@@ -131,16 +131,16 @@ UUID=BC40B6C340B68424  /run/media/maiks/movie ntfs3    defaults,nofail,x-sys
 Used `cat` to confirm:
 
 
-![](edited.png)
+![](Images/edited.png)
 
 ### Step 5: Test the Mounts Manually
 
 `sudo mount -a`
 
-![](hint.png)
+![](Images/hint.png)
 
 
-![](work.png)
+![](Images/work.png)
 
 
 No errors were returned - confirmed mounts succeeded.

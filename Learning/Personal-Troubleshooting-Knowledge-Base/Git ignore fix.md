@@ -29,19 +29,19 @@ This confirmed there was an issue with insufficient knowledge about `.gitignore`
 
 I created a `.gitignore` file using the terminal:
 
-![](nanogit.png)
+![](Images/nanogit.png)
 
 I confirmed the file was created using `ls -all`
 
-![](nanols.png)
+![](Images/nanols.png)
 
 Used `git add .` and `git commit -m "gitignore" ` to commit the changes to the repository
 
-![](commit.png)
+![](Images/commit.png)
 
 Used `git push origin main` to push the changes to the online repository
 
-![](push.png)
+![](Images/push.png)
 
 
 ## 4. Evaluate Results: Is it working?
@@ -67,14 +67,14 @@ So in a bash terminal, I run the command `git rm --cached -r .obsidian/`
 Followed by `git commit -m` and `git push`
 
 ![](rm.png)
-![](pushed.png)
+![](Images/pushed.png)
 
 
 ## 4. Evaluate Results: Is it working? (Second Iteration)
 
 After pushing to git, I checked the website to see that the .obsidian folder was gone and the repository looked like it was supposed to:
 
-![](fixed.png)
+![](Images/fixed.png)
 
 
 
