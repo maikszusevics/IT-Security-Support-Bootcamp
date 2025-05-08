@@ -1,7 +1,7 @@
 # Protocols
 
 Protocols are **sets of rules**. **Network protocols** are needed to ensure that data is sent, received, and understood properly.
-
+- Each protocol has a port number.
 
 ## IP Addressing
 
@@ -11,6 +11,7 @@ Protocols are **sets of rules**. **Network protocols** are needed to ensure that
 	  - Used for most clients
   - **Static IPs**: Manually set and remain fixed.
 	  - Used for shared devices (Printers, Servers, IoT devices)
+- IP traffic is packets.
 
 
 ## DHCP (Dynamic Host Configuration Protocol)
@@ -54,7 +55,7 @@ Protocols are **sets of rules**. **Network protocols** are needed to ensure that
 ## TCP (Transmission Control Protocol)
 
 - **Connection-oriented** protocol.
-- Ensures **reliable delivery** of data.
+- Ensures **guaranteed delivery** of data.
 - Uses:
   - Packet sequencing
   - Acknowledgements (ACK)
