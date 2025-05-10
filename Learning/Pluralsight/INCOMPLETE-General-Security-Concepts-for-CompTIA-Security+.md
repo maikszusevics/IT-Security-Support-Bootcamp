@@ -146,19 +146,19 @@ Identification is who you are. This can be labelled via username, securityID, sm
 ### Gap Analysis
 Process of identifying and evaluating the discrepancies or "gaps" between an organisation's current security measures and its desired or required security posture.
 - Identify vulnerabilities, weaknesses, and areas of improvement.
-- Enabling the development of a targeted strategy for enhacing cybersecurity defences and reducing the risk of cyber threats and attacks
+- Enabling the development of a targeted strategy for enhancing cybersecurity defences and reducing the risk of cyber threats and attacks
 
 ### Zero Trust
 Zero trust is an evolution from the traditional **perimeter-based security**.
 Fundamentally, the principle is never automatically trust anything. No user, no device, no network component, regardless of any circumstance.
 
-**Least Privilege Access**
+### Least Privilege Access
+Least Privilege Access is a security principle where users and systems are granted only the minimum levels of access or permissions needed to perform their tasks. This limits potential damage if an account is compromised. For example, a user who only needs to read files shouldn't have write or execute permissions. Implementing least privilege reduces the attack surface and supports compliance with security policies.
 
-**Micro-Segementation**
+### Micro-Segmentation
+Micro-segmentation involves dividing a network into smaller, isolated segments to control traffic more precisely. Each segment can enforce specific security rules, limiting how threats spread within the environment. For instance, a compromised user workstation can be prevented from accessing sensitive databases by design. This approach enhances visibility and containment, especially in virtualised and cloud-based environments.
 
-**Continuous Monitoring** 
 
-**Multi-Factor Authentication (MFA)**
 
 **Device and User Identity Verification** 
 
