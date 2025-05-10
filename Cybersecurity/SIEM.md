@@ -77,3 +77,10 @@
 ## Summary
 
 SIEM systems are essential tools in modern cybersecurity operations, enabling organisations to monitor, detect, and respond to threats effectively. While powerful, SIEM tools require skilled configuration, ongoing tuning, and active management to deliver value.
+
+## Further Reading
+
+- [MITRE ATT&CK Framework](https://attack.mitre.org/)
+- [NIST SP 800-92: Guide to Computer Security Log Management](https://csrc.nist.gov/publications/detail/sp/800-92/final)
+- Vendor Documentation: Splunk, IBM QRadar, Microsoft Sentinel
+
