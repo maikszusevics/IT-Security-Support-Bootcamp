@@ -48,6 +48,8 @@ MAC sublayer controls access to the physical medium, serving as a mediator if mu
 - **Responsibilities**:
   - Determines best path for data
   - Delivers packets across multiple networks
+	  - an IP packet represents data when it is transferred at the Network Layer of the OSI Model.
+	  - It takes the Ethernet Frame and adds logical addressing using IP so the data can be transported between networks.
 - **Examples**: IP addresses, routers, Internet Protocol (IP).
 
 ## Layer 4 - Transport
@@ -57,11 +59,11 @@ MAC sublayer controls access to the physical medium, serving as a mediator if mu
   - Segmentation and reassembly
   - Error detection and correction
   - Flow control
-- **Examples**: TCP (connection orientated), UDP (connectionless), port numbers.
+- **Examples**: TCP (connection orientated **segments**), UDP (connectionless **datagrams**), port numbers.
 
 ## Layer 5 - Session
 
-- **Role**: Establishes, manages, and ends communication sessions between applications.
+- **Role**: Establishes, manages, and ends communication sessions between applications via **source port** and **destination port**.
 - **Responsibilities**:
   - Session establishment and teardown
   - Synchronisation
@@ -87,6 +89,26 @@ MAC sublayer controls access to the physical medium, serving as a mediator if mu
 ### Intersection of OSI and TCP/IP
 
 The OSI and TCP/IP models both explain network communication, but differ in structure and application. OSI is a **conceptual/theoretical** seven-layer model used for teaching and deepening understanding, while TCP/IP is a **practical** four-layer model that actually runs the internet. TCP/IP simplifies OSI by condensing its seven layers into four: Application (combining OSI's top three layers), Transport, Internet (equivalent to OSI's Network layer), and Network Interface (combining OSI's bottom two layers). OSI provides detailed theoretical understanding, while TCP/IP is more relevant for real-world network implementation and troubleshooting.
+
+## Encapsulation
+
+- The actual data that needs to be transmitted (For example a message from a messaging app) is a sequence of 1s and 0s. 
+- During transmission, the message is attached to other sequences of 1s and 0s.
+	- These sequences are **standardised structures** that allow the transmission to be interpreted at each step along its journey.
+		- The specific structures attached define which layer of the TCP/IP model the data is currently passing through.
+	- When the data reaches a boundary between layers, a new set of standardised structures is **added onto** the existing ones.
+		- This **layering process** is called **encapsulation** and it ensures the data can be unpacked (**decapsulated**) and understood correctly, step by step, at the destination.
+
+These **standardised structures of 1s and 0s** are called **headers** (if they come before the data), or **footers/trailers** (if they come after). Headers are always present, footers are protocol-specific and used when verification or end-of-transmission markers are required.
+
+The **layering/adding** of headers/footers is called **encapsulation**. 
+
+During each layer, the **encapsulated** data is called the **payload**. 
+
+At the top layer (Application layer), the **payload** is the actual data you're sending, like the message in a text, or contents of a webpage, or the data in a file transfer.
+
+During each **encapsulation**, the entire transmission including all headers/footers of previous layers becomes the new **payload**.
+
 
 ## Summary Table
 

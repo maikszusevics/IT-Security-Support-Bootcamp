@@ -42,7 +42,7 @@ Protocols are **sets of rules**. **Network protocols** are needed to ensure that
 4. IP address is returned to the client and cached.
 
 
-## ARP
+## ARP (Address Resolution Protocol)
 
 - Enables devices on the same local network to discover each other's MAC addresses.
 	- Device A needs to communicate with Device B on the same network, it needs Device B's MAC address
@@ -55,7 +55,7 @@ Protocols are **sets of rules**. **Network protocols** are needed to ensure that
 ## TCP (Transmission Control Protocol)
 
 - **Connection-oriented** protocol.
-- Ensures **guaranteed delivery** of data.
+- Ensures **guaranteed delivery** of **segments**.
 - Uses:
   - Packet sequencing
   - Acknowledgements (ACK)
@@ -68,7 +68,7 @@ Protocols are **sets of rules**. **Network protocols** are needed to ensure that
 
 ## UDP (User Datagram Protocol)
 
-- **Connectionless** protocol.
+- **Connectionless** protocol, uses **datagrams**.
 - **Faster**, but **no guarantee** of delivery, order, or error checking.
 - Used for:
   - Live video/audio streaming
