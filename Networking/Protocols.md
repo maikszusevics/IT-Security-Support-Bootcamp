@@ -100,6 +100,17 @@ Protocols are **sets of rules**. **Network protocols** are needed to ensure that
   - Time exceeded
   - Echo request/reply (ping)
 
+
+## NTP
+
+- Operates over **port 123**
+
+
+## SSH
+
+- Operates over **port 22**
+
+
 ---
 
 ## Protocol Overview Table

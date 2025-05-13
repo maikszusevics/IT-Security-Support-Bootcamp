@@ -27,6 +27,8 @@ A **Network Interface Card** (NIC) enables a computer to connect to a network.
 - Connects devices **within the same local network**.
 - Operates at **Layer 2** (Data Link Layer).
 
+	**Managed switch** operates at layer 3, because it has an **IP address**
+
 
 **Default Gateway**: Usually a router, it routes traffic from the local network to external destinations. Front door of your house.
 
