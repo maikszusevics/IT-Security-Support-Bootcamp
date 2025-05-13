@@ -62,6 +62,7 @@ A **Mesh topology** involves every device being connected directly to every othe
 - Devices are connected in a circular loop, each device linked to two others.
 - Data travels in one direction or bidirectionally (dual-ring).
 - Failure in one node can disrupt the entire network unless fault tolerance is built in.
+- Token-based communications are inefficient.
 
 ## Summary Comparison
 
