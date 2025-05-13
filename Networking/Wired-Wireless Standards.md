@@ -4,7 +4,7 @@ Computer networks can be classified into two broad categories based on the mediu
 
 ## Understanding IEEE Standards
 
-The **Institute of Electrical and Electronics Engineers (IEEE)** is a professional organization that develops and maintains international standards for a wide range of technologies, including networking.
+The **Institute of Electrical and Electronics Engineers (IEEE)** is a professional organisation that develops and maintains international standards for a wide range of technologies, including networking.
 
 In the context of networking, IEEE standards ensure **interoperability**, **consistency**, and **reliability** across devices and systems from different manufacturers.
 

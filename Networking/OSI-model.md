@@ -12,7 +12,7 @@ Every layer is rule-based. At the physical layer the rules that tell us how to m
 
 ## Layer 2 - Data Link
 
-- **Role**: Packages raw bits into frames and manages direct node-to-node communication.
+- **Role**: Packages raw bits into frames and manages direct node-to-node communication on the same Local Area Network (LAN).
 - **Responsibilities**:
   - Basic error detection and correction
   - MAC (Media Access Control) addressing
@@ -62,7 +62,7 @@ Every layer is rule-based. At the physical layer the rules that tell us how to m
 
 ### Intersection of OSI and TCP/IP
 
-The OSI and TCP/IP models both explain network communication, but differ in structure and application. OSI is a conceptual/theoretical seven-layer model used for teaching and deepening understanding, while TCP/IP is a practical four-layer model that actually runs the internet. TCP/IP simplifies OSI by condensing its seven layers into four: Application (combining OSI's top three layers), Transport, Internet (equivalent to OSI's Network layer), and Network Interface (combining OSI's bottom two layers). OSI provides detailed theoretical understanding, while TCP/IP is more relevant for real-world network implementation and troubleshooting.
+The OSI and TCP/IP models both explain network communication, but differ in structure and application. OSI is a **conceptual/theoretical** seven-layer model used for teaching and deepening understanding, while TCP/IP is a **practical** four-layer model that actually runs the internet. TCP/IP simplifies OSI by condensing its seven layers into four: Application (combining OSI's top three layers), Transport, Internet (equivalent to OSI's Network layer), and Network Interface (combining OSI's bottom two layers). OSI provides detailed theoretical understanding, while TCP/IP is more relevant for real-world network implementation and troubleshooting.
 
 ## Summary Table
 
@@ -75,4 +75,5 @@ The OSI and TCP/IP models both explain network communication, but differ in stru
 | 3     | Network      | Routing and logical addressing              | IP, routers                 |
 | 2     | Data Link    | Local addressing and error detection        | MAC, Ethernet               |
 | 1     | Physical     | Hardware transmission of raw bits           | Cables, radio signals, NICs |
+
 
