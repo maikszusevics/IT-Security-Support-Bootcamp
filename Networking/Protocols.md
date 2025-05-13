@@ -40,6 +40,7 @@ Protocols are **sets of rules**. **Network protocols** are needed to ensure that
 2. If not found, sends request to DNS resolver.
 3. Resolver contacts DNS servers.
 4. IP address is returned to the client and cached.
+5. Uses **port 52**
 
 
 ## ARP (Address Resolution Protocol)
@@ -101,15 +102,22 @@ Protocols are **sets of rules**. **Network protocols** are needed to ensure that
   - Echo request/reply (ping)
 
 
-## NTP
+## NTP (Network Time Protocol)
 
 - Operates over **port 123**
 
 
-## SSH
+## SSH (Secure SHell)
 
 - Operates over **port 22**
 
+## SMTP
+
+- Operates over **port 25**
+
+## IMAP4
+
+- Operates over **port 143**
 
 ---
 
