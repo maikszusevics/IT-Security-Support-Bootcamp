@@ -2,7 +2,9 @@
 
 ## Overview of the TCP/IP Model
 
-Fundamentally, **the TCP/IP model exists to describe and facilitate data moving between software, hardware, and networks**. It’s divided into four layers, each responsible for a specific part of the transmission process.
+TCP/IP = **Transmission Control Protocol/Internet Protocol**
+
+Fundamentally, **the TCP/IP model exists to describe and facilitate data moving between software, hardware, and networks**. It’s divided into four layers, each responsible for a specific part of the transmission process. It is a **practical framework**, while the [OSI model](/Networking/OSI-model) is a **conceptual framework.**
 
 | Layer               | Description                                             | Example Protocols    |
 | ------------------- | ------------------------------------------------------- | -------------------- |
