@@ -11,7 +11,7 @@ The **loopback interface** is a special network interface used for testing the T
 This test ensures that the [TCP/IP](TCP-IP%20Stack.md) stack is functioning, as the request never leaves the system.
 
 
-# Network Troubleshooting – Basic Ping Checks
+# Network Troubleshooting - Basic Ping Checks
 
 1. **Ping Localhost**  
     `ping 127.0.0.1`  

@@ -22,6 +22,7 @@ Protocols are **sets of rules**. **Network protocols** are needed to ensure that
   2. **Receive** an IP address and lease.
   3. **Request** to use the address.
   4. **Get an Acknowledgement** confirming lease duration.
+  5. **Port 67**
 
 - Also used for:
   - Subnet mask
@@ -104,35 +105,75 @@ Protocols are **sets of rules**. **Network protocols** are needed to ensure that
 
 ## NTP (Network Time Protocol)
 
-- Operates over **port 123**
+- Synchronizes system clocks over networks.
+- Uses **UDP port 123**.
 
+## SSH (Secure Shell)
 
-## SSH (Secure SHell)
+- Secure command-line access to remote systems.
+- **TCP port 22**.
 
-- Operates over **port 22**
+## SMTP (Simple Mail Transfer Protocol)
 
-## SMTP
+- Sends email from client to server or server to server.
+- **TCP port 25**, or **587** for secure submission.
 
-- Operates over **port 25**
+## IMAP4 (Internet Message Access Protocol v4)
 
-## IMAP4
+- Retrieves email from server while leaving a copy there.
+- **TCP port 143** (plaintext), **993** (secure/SSL).
 
-- Operates over **port 143**
+## POP3 (Post Office Protocol v3)
 
----
+- Downloads email and typically deletes it from the server.
+- **TCP port 110**, **995** for POP3S (SSL).
+
+## LDAP (Lightweight Directory Access Protocol)
+
+- Directory access for authentication and directory services.
+- **TCP port 389** (LDAP), **636** (LDAPS - secure).
+
+## RDP (Remote Desktop Protocol)
+
+- Remote access to Windows desktops.
+- **TCP port 3389**.
+
+## OSPF (Open Shortest Path First)
+
+- Interior routing protocol used within an Autonomous System.
+- **IP protocol number 89** (not a TCP/UDP port).
+
+## RIPv2 (Routing Information Protocol v2)
+
+- Distance-vector routing protocol.
+- **UDP port 520**.
+
+## EIGRP (Enhanced Interior Gateway Routing Protocol)
+
+- Cisco proprietary routing protocol.
+- Uses **IP protocol number 88**.
 
 ## Protocol Overview Table
 
-| Protocol | Purpose / Function                             | TCP/IP Layer           |
-|----------|------------------------------------------------|------------------------|
-| IP       | Addressing and routing                         | Internet               |
-| DHCP     | Dynamic IP assignment                          | Application            |
-| DNS      | Domain name to IP resolution                   | Application            |
-| ARP      | Resolves IP addresses to MAC addresses         | Network Access (Link)  |
-| TCP      | Reliable, ordered data transmission            | Transport              |
-| UDP      | Fast, unreliable data transmission             | Transport              |
-| HTTP     | Web communication (insecure)                   | Application            |
-| HTTPS    | Encrypted web communication                    | Application            |
-| FTP      | File transfer between systems                  | Application            |
-| ICMP     | Network diagnostics and error reporting        | Internet               |
-
+|Protocol|Port(s)|Purpose / Function|TCP/IP Layer|
+|---|---|---|---|
+|IP|N/A|Addressing and routing|Internet|
+|DHCP|UDP 67/68|Dynamic IP assignment|Application|
+|DNS|TCP/UDP 53|Domain name to IP resolution|Application|
+|ARP|N/A|Resolves IP to MAC (LAN)|Network Access (Link)|
+|TCP|N/A|Reliable, ordered data transmission|Transport|
+|UDP|N/A|Fast, unreliable data transmission|Transport|
+|HTTP|TCP 80|Web communication (insecure)|Application|
+|HTTPS|TCP 443|Encrypted web communication|Application|
+|FTP|TCP 20/21|File transfer between systems|Application|
+|ICMP|N/A|Network diagnostics and error reporting|Internet|
+|NTP|UDP 123|Time synchronization|Application|
+|SSH|TCP 22|Secure remote access|Application|
+|SMTP|TCP 25/587|Sending email|Application|
+|IMAP4|TCP 143/993|Email retrieval (leave on server)|Application|
+|POP3|TCP 110/995|Email retrieval (download & delete)|Application|
+|LDAP|TCP 389/636|Directory services and authentication|Application|
+|RDP|TCP 3389|Remote desktop access|Application|
+|OSPF|IP Protocol 89|Dynamic routing (intra-domain)|Internet|
+|RIPv2|UDP 520|Basic dynamic routing|Application|
+|EIGRP|IP Protocol 88|Cisco routing protocol|Internet|

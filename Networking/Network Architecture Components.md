@@ -40,12 +40,12 @@ A **Network Interface Card** (NIC) enables a computer to connect to a network.
 #### **Modem (Modulator-Demodulator)**
 
 - Converts digital data from your device into analog signals that can be transmitted over traditional media (e.g., telephone lines, coaxial cable).
-- Operates at **Layer 1** (Physical Layer).
+- Exists at **Layer 2** of the **OSI** model
 - Acts as a bridge between your internal network and your **Internet Service Provider (ISP)**.
 - Common types:
-    - **DSL Modems** – Use telephone lines.
-    - **Cable Modems** – Use coaxial cables.
-    - **Fiber Modems** – Use optical fiber and may include media converters.
+    - **DSL Modems** - Use telephone lines.
+    - **Cable Modems** - Use coaxial cables.
+    - **Fiber Modems** - Use optical fiber and may include media converters.
 - In modern networks, modem functionality is often combined with the router in a **single device** (called a gateway or home hub).
 
 #### **Access Point (AP)/Wireless Access Point (WAP)**
@@ -53,6 +53,7 @@ A **Network Interface Card** (NIC) enables a computer to connect to a network.
 - Extends a wired network by providing **wireless connectivity**.
 - Usually connects to a router or switch.
 - Operates at **Layer 2**, forwarding traffic between wireless clients and the rest of the LAN.
+- 
 
 #### **Firewall**
 
@@ -73,6 +74,8 @@ A **Network Interface Card** (NIC) enables a computer to connect to a network.
 - Operates at **Layer 1** (Physical Layer).
 - Broadcasts incoming traffic to all ports, regardless of destination.
 - Largely replaced by switches due to performance and security limitations.
+
+Repeater, ACLs, Proxy, Patch Panel, VPN concentrators, Load Balancers
 
 ## Home router vs Enterprise configurations
 

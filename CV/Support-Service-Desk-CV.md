@@ -41,13 +41,13 @@ Currently deepening skills in systems administration, networking, and cybersecur
 
 ## Certifications & Training
 
-- **Althaus Digital IT Security & Support Bootcamp** (April 2025 – Ongoing)  
+- **Althaus Digital IT Security & Support Bootcamp** (April 2025 - Ongoing)  
   *Intensive hands-on training in IT support, networking, system administration, and security.*
   - Technical documentation using Markdown
   - Cisco Packet Tracer labs
   - Pluralsight modules (CompTIA, Windows Server)
 
-- **Sparta Global – Junior DevOps Certificate** (Jul 2022 – Sep 2022)  
+- **Sparta Global - Junior DevOps Certificate** (Jul 2022 - Sep 2022)  
   *Covered DevOps pipelines, automation, version control, and cloud fundamentals using AWS, Docker, Jenkins, Ansible, Terraform.*
 
 - **Certifications in Progress**  
@@ -60,39 +60,39 @@ Currently deepening skills in systems administration, networking, and cybersecur
 ## Professional Experience
 
 ### **Emergency Dispatcher**  
-**Cadent Gas, Coventry** — *Jan 2023 – Nov 2023*  
+**Cadent Gas, Coventry** — *Jan 2023 - Nov 2023*  
 - Prioritised emergency engineer dispatch under 60-minute SLAs.  
 - Managed critical, time-sensitive data entry and dispatch logistics.  
 - Communicated updates to field teams, management, and customers.  
 - Remained calm under pressure, ensuring safety and service reliability.
 
 ### **Technical Helpdesk Advisor**  
-**Willow Communications** — *Apr 2022 – Jun 2022*  
+**Willow Communications** — *Apr 2022 - Jun 2022*  
 - Delivered remote support for proprietary gaming software.  
 - Performed OS/software installations and followed support documentation.  
 - Used ticketing systems and remote desktop tools.
 
 ### **Junior DevOps Engineer Trainee**  
-**Sparta Global** — *Jun 2022 – Nov 2022*  
+**Sparta Global** — *Jun 2022 - Nov 2022*  
 - Developed skills in Python, Git, Docker, CI/CD, Agile, and cloud deployment.  
 - Worked in simulated DevOps teams with automation pipelines and sprint cycles.
 
 ### **IT & Production Line Technician Apprentice**  
-**My1stYears, Northampton** — *Mar 2019 – Apr 2020*  
+**My1stYears, Northampton** — *Mar 2019 - Apr 2020*  
 - Provided technical support using TeamViewer and ticketing systems.  
 - Maintained laptops, industrial machinery, and IT inventory.  
 - Wired RJ45 Ethernet cables and recovered encrypted data using bootable Linux USB for regulatory compliance.  
 - Supported customer service during peak workloads.
 
 ### **Additional Work Experience**  
-*Warehouse Operative (Morrisons, GXO, ASDA), Kitchen Assistant (Blue Arrow)* — *2019–2025*  
+*Warehouse Operative (Morrisons, GXO, ASDA), Kitchen Assistant (Blue Arrow)* — *2019-2025*  
 - Demonstrated work ethic, adaptability, and collaboration in fast-paced environments.
 
 ---
 
 ## Education
 
-**Weston Favell Academy — GCSEs (2014 – 2018)**  
+**Weston Favell Academy — GCSEs (2014 - 2018)**  
 - English Literature (7), English Language (6), Maths (6)  
 - Physics (8), Chemistry (6), Biology (6)  
 - Business (Merit), Catering (L2 Pass)

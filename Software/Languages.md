@@ -10,25 +10,25 @@ Compilers and Interpreters do the translation of high level programming language
 
 ### Programming Concepts
 
-- **Object-Oriented Programming (OOP)** – A programming paradigm based on objects that contain data and behaviour. Key principles include:
-    - **Encapsulation** – Bundling data with methods.
-    - **Inheritance** – Deriving new classes from existing ones.
-    - **Polymorphism** – Methods behaving differently based on context.
+- **Object-Oriented Programming (OOP)** - A programming paradigm based on objects that contain data and behaviour. Key principles include:
+    - **Encapsulation** - Bundling data with methods.
+    - **Inheritance** - Deriving new classes from existing ones.
+    - **Polymorphism** - Methods behaving differently based on context.
     - Languages: Python, Java, C#, C++.
 
 - **Common Functions in Programming**
-    - `if/else` – Conditional logic
-    - `while` loop – Repeats code while a condition is true
-    - `for` loop – Iterates over sequences
-    - `do...while` loop – Runs at least once before checking the condition
+    - `if/else` - Conditional logic
+    - `while` loop - Repeats code while a condition is true
+    - `for` loop - Iterates over sequences
+    - `do...while` loop - Runs at least once before checking the condition
 
 ### Markup Languages
 
 Markup languages use special symbols (tags) to tell computers how to display or structure text, like making words bold or creating headings. Examples include HTML for websites and Markdown for simple formatting, both helping turn plain text into organised, visually formatted content.
 
-- **HTML** – Structures content on the web.
-- **XML** – Used for data storage and transport with strict formatting.
-- **Markdown (MD)** – Lightweight syntax for formatting text.
+- **HTML** - Structures content on the web.
+- **XML** - Used for data storage and transport with strict formatting.
+- **Markdown (MD)** - Lightweight syntax for formatting text.
 
 ### JavaScript
 
@@ -60,7 +60,7 @@ Interpreted languages run through a program line by line.
 - Examples of common interpreted languages are PHP, Ruby, Python, and JavaScript
 
 
-## Website Development – House Analogy
+## Website Development - House Analogy
 
 Think of a website like a house:
 
@@ -68,7 +68,7 @@ Think of a website like a house:
 |---|---|---|
 |**HTML**|Structure|The house's framework and walls|
 |**CSS**|Appearance|The interior/exterior design|
-|**JavaScript**|Interactivity|The moving parts – doors, switches, etc.|
+|**JavaScript**|Interactivity|The moving parts - doors, switches, etc.|
 
-- **Client-side technologies**: HTML, CSS, JavaScript – run in the user's browser.
-- **Server-side technologies**: PHP, Node.js, Python – run on a web server.
+- **Client-side technologies**: HTML, CSS, JavaScript - run in the user's browser.
+- **Server-side technologies**: PHP, Node.js, Python - run on a web server.

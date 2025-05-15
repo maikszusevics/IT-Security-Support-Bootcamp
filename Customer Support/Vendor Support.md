@@ -16,7 +16,7 @@ For example, If a small business doesn't have its own IT team, they might hire a
 Strong vendor support documentation enables MSPs to maintain higher service levels with fewer internal resources, directly affecting profitability and scalability. 
 
 
-## SLA – Service Level Agreement
+## SLA - Service Level Agreement
 
 An SLA is a formal, customer-facing contract between a service provider and a client. It defines the expected level of service, how performance is measured, and what penalties apply if standards aren't met.
 
@@ -38,8 +38,8 @@ Response time refers to how long it takes from when a support request is made to
 
 ### SLA Penalties
 SLA breaches are evaluated based on:
-- **Severity** – Impact on business, customers, and reputation.
-- **Frequency** – Repeated issues may indicate poor service.
+- **Severity** - Impact on business, customers, and reputation.
+- **Frequency** - Repeated issues may indicate poor service.
 
 **Examples:**
 - *Minor delay*: Late software update = 10% refund per day + 1-month free extension.
@@ -48,7 +48,7 @@ SLA breaches are evaluated based on:
 
 
 
-## OLA – Operational Level Agreement
+## OLA - Operational Level Agreement
 
 An OLA is an internal agreement, between the company and its staff. It outlines performance targets like:
 
@@ -59,7 +59,7 @@ OLAs are used to set internal expectations and track service delivery using KPIs
 
 
 
-## NDA – Non-Disclosure Agreement
+## NDA - Non-Disclosure Agreement
 
 An NDA is a legally binding agreement that ensures sensitive or confidential information is not disclosed to unauthorised parties.
 
@@ -69,7 +69,7 @@ An NDA is a legally binding agreement that ensures sensitive or confidential inf
 
 
 
-## T&Cs – Terms and Conditions
+## T&Cs - Terms and Conditions
 
 T&Cs define the rules users must follow when using a service or product. It's a legal agreement between a provider and user.
 
@@ -132,7 +132,7 @@ Policies help ensure **compliance**, **consistency**, and **accountability** in 
 A detailed, written set of instructions outlining the steps for performing a specific task or routine activity. SOPs are designed to ensure consistency, efficiency, and quality in how tasks are executed. 
 
 
-## Five Nines – High Availability (99.999%)
+## Five Nines - High Availability (99.999%)
 
 "Five Nines" (99.999%) uptime represents approximately 5 minutes of downtime per year, the gold standard for system reliability.
 
