@@ -211,9 +211,9 @@ Access control ensures users and systems can only perform authorised actions.
     - Access rules enforced at login and during session (e.g. through NAC, firewalls, or PEPs).
 
 
-## Zero Trust Security Architecture
+### Zero Trust Security Architecture
 
-### Assume Breach
+#### Assume Breach
 
 Assume that perimeter defences will fail and internal threats exist. Systems should operate as if compromise is imminent or already occurred.
 
@@ -222,16 +222,53 @@ Assume that perimeter defences will fail and internal threats exist. Systems sho
     - Network segmentation
     - Strong identity verification
     - Least privilege enforcement
-##### Policy Engine
+### Control Plane
+
+#### Policy Engine
+
+- The brain of access decisions.
+- Evaluates policies based on identity, device health, resource sensitivity, time, and location.
+- Determines whether access should be granted, denied, or challenged.
 
 #### Policy Administrator
+
+- Translates policy engine decisions into actionable controls.
+- Coordinates with identity providers, PEPs, and logging systems.
+
 ##### Adaptive Identity
+
+- Dynamically adjusts access based on user behaviour, device changes, or threat intelligence.
+- Uses AI/ML to establish baselines and flag anomalies.
+
 ##### Threat Scope Reduction
+
+- Minimises potential attack surface by enforcing granular access controls.
+- Integrates with threat intelligence to dynamically adjust policies.
+
 ##### Policy-Driven Access Control
+
+- Automates access decisions based on pre-defined logic.
+- Reduces human error and improves auditability.
 
 
 ### Data Plane
 
+#### Implicit Trust Zones
+
+- Deprecated concept in Zero Trust.
+- Traditional networks assumed internal traffic was "safe."
+- Modern approach removes this assumption—internal and external are treated with equal scrutiny.
+
+#### Subject/System
+
+- Subjects: users, services, or applications requesting access.
+- Systems: assets or data being accessed.
+
+#### Policy Enforcement Point (PEP)
+
+- The gatekeeper.
+- Enforces decisions made by the Policy Engine.
+- Can be network-based (firewalls, proxies) or host-based (agents, middleware).
 #### Implicit Trust Zones
 #### Subject/System
 
