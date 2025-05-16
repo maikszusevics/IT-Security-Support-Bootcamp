@@ -18,3 +18,8 @@ After the first set of questions, it asks to zoom into the **wiring closet** in 
 ![](Images/FastEth1.png)
 
 
+![](Images/Useful.png)
+
+![](Images/zoompwr.png)
+
+In order to connect the laptop to the backup router, I had to right click on the router in order to view the rear side where the USB port is. It is not immediately obvious where the USB port is on the router and how to connect a cable to it.
