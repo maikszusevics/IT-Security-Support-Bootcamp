@@ -165,9 +165,35 @@ Continuous Monitoring is the ongoing collection, analysis, and response to secur
 
 Multi-Factor Authentication (MFA) strengthens user authentication by requiring two or more verification factors from different categories: something you know (password), something you have (security token or smartphone), and something you are (biometric). Even if one factor is compromised, unauthorised access is still unlikely. MFA is a key defence against credential-based attacks like phishing or brute force.
 
-**Device and User Identity Verification** 
+### Identity, Access, and Trust Management
 
-**Encryption**
+#### Device and User Identity Verification
+
+Identity verification ensures that only authenticated, authorised individuals and devices can access resources. This is foundational for Zero Trust Architecture.
+
+- **Device Identity Verification**
+    - Uses unique identifiers (e.g. MAC address, TPM chip, certificates) to verify device legitimacy.
+    - Managed via Mobile Device Management (MDM) or Endpoint Detection and Response (EDR) systems.
+    - May include posture assessment (OS version, patch status) before granting access.
+- **User Identity Verification**
+    - Involves strong authentication (MFA, biometrics) and federated identity systems (e.g. SAML, OIDC).
+    - Enhanced with contextual data: location, time of day, behavioural patterns.
+    - Can integrate with Identity Providers (IdPs) like Azure AD, Okta, etc.        
+
+### Encryption
+
+Encryption transforms data into unreadable formats unless decrypted with a valid key. It supports confidentiality, integrity, and non-repudiation.
+
+- **At Rest**
+    - Disk or file-level encryption using AES-256 or similar standards.
+    - Common tools: BitLocker, LUKS, EFS.
+- **In Transit**
+    - TLS/SSL protects data moving across networks.
+    - VPNs and IPsec provide secure tunneling and authentication.
+- **End-to-End**
+    - Only sender and receiver can decrypt (e.g. Signal, ProtonMail).
+- **Key Management**
+    - Secure storage and rotation of cryptographic keys via HSM or KMS (AWS KMS, Azure Key Vault).
 
 **Strict Access Control**
 
