@@ -195,10 +195,33 @@ Encryption transforms data into unreadable formats unless decrypted with a valid
 - **Key Management**
     - Secure storage and rotation of cryptographic keys via HSM or KMS (AWS KMS, Azure Key Vault).
 
-**Strict Access Control**
+### Strict Access Control
 
-**Assume Breach**
-#### Control Plane
+Access control ensures users and systems can only perform authorised actions.
+
+- **Role-Based Access Control (RBAC)**
+    - Permissions based on roles (e.g. HR, IT).
+- **Attribute-Based Access Control (ABAC)**
+    - Decisions based on user attributes, environment, and resource properties.
+- **Mandatory Access Control (MAC)**
+    - Central authority assigns access (common in government/military).
+- **Discretionary Access Control (DAC)**
+    - Resource owners set access permissions.
+- **Policy Enforcement**
+    - Access rules enforced at login and during session (e.g. through NAC, firewalls, or PEPs).
+
+
+## Zero Trust Security Architecture
+
+### Assume Breach
+
+Assume that perimeter defences will fail and internal threats exist. Systems should operate as if compromise is imminent or already occurred.
+
+- Requires:
+    - Continuous monitoring
+    - Network segmentation
+    - Strong identity verification
+    - Least privilege enforcement
 ##### Policy Engine
 
 #### Policy Administrator
