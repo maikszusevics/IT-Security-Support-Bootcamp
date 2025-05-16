@@ -269,30 +269,75 @@ Assume that perimeter defences will fail and internal threats exist. Systems sho
 - The gatekeeper.
 - Enforces decisions made by the Policy Engine.
 - Can be network-based (firewalls, proxies) or host-based (agents, middleware).
-#### Implicit Trust Zones
-#### Subject/System
-
-#### Policy Enforcement Point
-
-### Physical Security
+## Physical Security
 
 #### Bollards
+
+- Prevent vehicular access to sensitive areas.
+- Can be fixed or retractable.
+
 #### Access Control Vestibule (Mantrap)
+
+- Double-door system restricting passage to one person at a time.
+- Used in high-security buildings like data centres or military facilities.
 
 #### Fencing
 
+- Physical boundary layer to deter or delay unauthorised access.
+- Often enhanced with sensors or cameras.
+
 #### Video Surveillance
+
+- CCTV and IP cameras provide real-time monitoring and recording.
+- Integrated with motion detection and video analytics.
+
 #### Security Guard
+
+- Human element of physical security.
+- Can provide deterrence, verification, and incident response.
+
 #### Access Badge
+
+- ID cards with RFID, NFC, or magnetic stripes.
+- Can enforce time-restricted, role-based access to areas.
+
 #### Lighting
+
+- Well-lit perimeters discourage intruders.
+- Supports surveillance and enhances safety.
+
 #### Sensors
+
 ##### Infrared Pressure
+
+- Detects changes in infrared signature or pressure—used in perimeter alarms.
+
 ##### Microwave
+
+- Sends signals between transmitters and receivers—detects motion.
+
 ##### Ultrasonic
-### Deception and Disruption technology
+
+- Emits high-frequency sound waves—detects presence or movement via Doppler shift.
+
+## Deception and Disruption Technology
+
 #### Honeypot
+
+- Decoy system emulating a real service to attract attackers.
+- Used to study behaviour or delay progression into the network.
+
 #### Honeynet
-#### Honeylife
+
+- Network of honeypots.
+- Simulates an entire infrastructure to gather in-depth threat intelligence.
+
+#### Honeylife (Deceptive Files)
+
+- Live systems seeded with fake documents, credentials, or services.
+- Designed to trigger alerts upon interaction.
+
 #### Honeytoken
 
-
+- Fake credentials or records embedded in real systems.
+- Use cases include detecting unauthorised access, insider threats, or lateral movement.
