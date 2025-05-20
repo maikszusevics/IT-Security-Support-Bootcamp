@@ -1,5 +1,59 @@
 # Fundamental Cybersecurity Concepts
-> This is a work in progress based on the [Pluralsight General Security Concepts for CompTIA Security+](General-Security-Concepts-for-CompTIA-Security+.md) course.
+
+### Vulnerability 
+A weakness that creates a potential attack vector in the system
+### Threat
+Something or someone that possesses the potential to cause harm or damage to a system or data.
+
+### Hardening
+System hardening is essentially patch management, it is doing what you can to stop vulnerabilities in your system.
+
+### Network Hardening 
+A secure network is only as strong as its weakest link. 
+it is important to secure the end devices that reside on the network but also to secure the network connectivity and infrastructure itself.
+some of these methods involve securing administrative access, maintaining passwords, and implementing secure communications.
+A common practise for network hardening is to close unsecure and unnecessary ports on a firewall.
+
+### GRC
+
+**GRC** is a structured approach to aligning IT with business objectives while managing risk and ensuring compliance with laws and regulations. Each component plays a distinct but interconnected role in maintaining the security and integrity of systems and data.
+
+#### Governance
+
+Governance refers to the frameworks, policies, roles, and responsibilities that guide and oversee how an organization manages its IT systems and security posture. This includes:
+
+- Defining security roles and responsibilities
+    
+- Establishing security policies and acceptable use policies (AUPs)
+    
+- Ensuring strategic alignment between IT security and business goals
+    
+
+#### Risk Management
+Risk Management is the process of identifying, assessing, and mitigating risks to an organization’s assets. This involves:
+
+- **Risk identification:** Cataloguing potential threats and vulnerabilities
+    
+- **Risk assessment:** Determining the likelihood and impact of risks
+    
+- **Risk treatment:** Deciding whether to mitigate, transfer, accept, or avoid the risk
+    
+- **Continuous monitoring:** Reassessing risk as systems and environments evolve
+    
+
+Risk management should be documented in a risk register and aligned with business continuity planning and incident response strategies.
+
+#### Compliance
+Compliance ensures that the organization adheres to relevant laws, regulations, standards, and internal policies. Non-compliance can result in legal penalties, reputational damage, or financial loss.
+
+##### Key Legislation and Frameworks:
+
+- **Data Protection Act (UK):** Regulates the use of personal data and mandates secure processing.
+- **Computer Misuse Act (UK):** Criminalises unauthorised access and actions that compromise systems.
+- **General Data Protection Regulation (GDPR):** A European Union regulation that governs the collection, processing, and storage of personal data.
+- **NIST, ISO/IEC 27001:** Common frameworks used to guide and benchmark security policies and controls.
+
+Compliance also involves maintaining audit trails, documentation, user consent logs, access records, and ensuring that policies are enforced and understood by staff.
 
 ### CIA Triad (Confidentiality, Integrity, and Availability)
 Three elements that help ensure that data is kept secure, accurate, and accessible to authorised users.
@@ -27,6 +81,10 @@ Authentication identifies the user and allows (or denies) access based on availa
 Authorisation provides things like length of time allowed on the network, controls who has access to certain folders, files, or storage locations, and to what extent do their permissions allow them to make change.
 
 Accounting tracks the start and stop time of each session - can be used for billing or general tracking.
+
+**AAAA - Authorisation, Authentication, Accounting, Auditing**
+
+Sometimes auditing is also included into the framework to make it AAAA
 
 ##### Identification vs Authentication vs Authorisation
 Identification is who you are. This can be labelled via username, securityID, smart card. Authentication is proving who you are, this can be done via username-password combo, OTP, or biometric data like fingerprint or retina scan. Authorisation is what permissions you have, it's what you're allowed to access and do once you've been authenticated.

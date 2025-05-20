@@ -23,10 +23,10 @@ Applications interact with various data sources, such as:
 
 Data exists in one of three states. Each requires specific protection strategies:
 
-|**State**|**Description**|**Protection Methods**|
-|---|---|---|
-|**At Rest**|Stored data (e.g., on disk or backup)|Full-disk encryption (BitLocker, LUKS)|
-|**In Transit**|Moving across a network|TLS/SSL, VPNs, HTTPS|
-|**In Process**|Actively used in RAM or CPU|Hardware-based protection (e.g., TPM)|
+| **State**      | **Description**                       | **Protection Methods**                 |
+| -------------- | ------------------------------------- | -------------------------------------- |
+| **At Rest**    | Stored data (e.g., on disk or backup) | Full-disk encryption (BitLocker, LUKS) |
+| **In Transit** | Moving across a network               | TLS/SSL, VPNs, HTTPS                   |
+| **In Process** | Actively used in RAM or CPU           | Hardware-based protection (e.g., TPM)  |
 
 - **TPM (Trusted Platform Module)** - Hardware chip that stores cryptographic keys securely and ensures integrity of boot processes and memory use.
