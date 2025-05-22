@@ -1,10 +1,15 @@
 # Fundamental Cybersecurity Concepts
 
-### Vulnerability 
-A weakness that creates a potential attack vector in the system
+### Risk
+**Risk** is the **likelihood-severity contrast** of a **threat**:
+
+![](Images/riskchart.png)
+
 ### Threat
 Something or someone that possesses the potential to cause harm or damage to a system or data.
 
+### Vulnerability 
+A weakness that creates a potential attack vector in the system
 ### Hardening
 System hardening is essentially patch management, it is doing what you can to stop vulnerabilities in your system.
 
