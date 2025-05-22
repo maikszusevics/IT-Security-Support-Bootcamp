@@ -38,13 +38,9 @@ Governance refers to the frameworks, policies, roles, and responsibilities that 
 Risk Management is the process of identifying, assessing, and mitigating risks to an organization’s assets. This involves:
 
 - **Risk identification:** Cataloguing potential threats and vulnerabilities
-    
 - **Risk assessment:** Determining the likelihood and impact of risks
-    
 - **Risk treatment:** Deciding whether to mitigate, transfer, accept, or avoid the risk
-    
 - **Continuous monitoring:** Reassessing risk as systems and environments evolve
-    
 
 Risk management should be documented in a risk register and aligned with business continuity planning and incident response strategies.
 
