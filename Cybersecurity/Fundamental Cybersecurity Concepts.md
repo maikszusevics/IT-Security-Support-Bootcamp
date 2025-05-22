@@ -10,6 +10,13 @@ Something or someone that possesses the potential to cause harm or damage to a s
 
 ### Vulnerability 
 A weakness that creates a potential attack vector in the system
+
+### Mitigation 
+**Mitigation** defines **reducing the risk** (**impact** or **likelihood**) of a **threat** occurring.
+
+### Counter-Measures
+**Counter-Measures** are **specific actions or tools** aimed at **defending against** known **threats or attack** 
+
 ### Hardening
 System hardening is essentially patch management, it is doing what you can to stop vulnerabilities in your system.
 
