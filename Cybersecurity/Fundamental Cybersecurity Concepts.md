@@ -1,15 +1,19 @@
 # Fundamental Cybersecurity Concepts
 
+
+### Threat
+Something or someone that possesses the potential to cause harm or damage to a system or data.
+
 ### Risk
 **Risk** is the **likelihood-severity contrast** of a **threat**:
 
 ![](Images/riskchart.png)
 
-### Threat
-Something or someone that possesses the potential to cause harm or damage to a system or data.
+### Attack Vector
+A **path or means** by which someone can gain **unauthorised access** to a computer system or network in order to deliver a malicious payload or exploit a vulnerability.
 
 ### Vulnerability 
-A weakness that creates a potential attack vector in the system
+A weakness that creates a **potential attack vector** in the system
 
 ### Mitigation 
 **Mitigation** defines **reducing the risk** (**impact** or **likelihood**) of a **threat** occurring.
@@ -56,10 +60,10 @@ Compliance ensures that the organization adheres to relevant laws, regulations, 
 
 ##### Key Legislation and Frameworks:
 
-- **Data Protection Act (UK):** Regulates the use of personal data and mandates secure processing.
-- **Computer Misuse Act (UK):** Criminalises unauthorised access and actions that compromise systems.
+- **Data Protection Act:** Regulates the use of personal data and mandates secure processing.
+- **Computer Misuse Act:** Criminalises unauthorised access and actions that compromise systems.
 - **General Data Protection Regulation (GDPR):** A European Union regulation that governs the collection, processing, and storage of personal data.
-- **NIST, ISO/IEC 27001:** Common frameworks used to guide and benchmark security policies and controls.
+- **NIST, ISO 27001/2:** Common frameworks used to guide and benchmark security policies and controls.
 
 Compliance also involves maintaining audit trails, documentation, user consent logs, access records, and ensuring that policies are enforced and understood by staff.
 
@@ -331,3 +335,4 @@ Assume that perimeter defences will fail and internal threats exist. Systems sho
 
 - Fake credentials or records embedded in real systems.
 - Use cases include detecting unauthorised access, insider threats, or lateral movement.
+
