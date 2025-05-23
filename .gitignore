@@ -1,5 +1,8 @@
 # Ignore Obsidian configuration folder
-
 .obsidian/
 
+# Ignore the raw notes folder
 rawnotes/
+
+# Ignore depreciated packet tracer file format
+*.pkz
