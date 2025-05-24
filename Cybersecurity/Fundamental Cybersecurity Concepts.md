@@ -269,7 +269,8 @@ Assume that perimeter defences will fail and internal threats exist. Systems sho
 - The gatekeeper.
 - Enforces decisions made by the Policy Engine.
 - Can be network-based (firewalls, proxies) or host-based (agents, middleware).
-## Physical Security
+
+### Physical Security
 
 #### Bollards
 
@@ -320,7 +321,7 @@ Assume that perimeter defences will fail and internal threats exist. Systems sho
 
 - Emits high-frequency sound waves—detects presence or movement via Doppler shift.
 
-## Deception and Disruption Technology
+### Deception and Disruption Technology
 
 #### Honeypot
 
