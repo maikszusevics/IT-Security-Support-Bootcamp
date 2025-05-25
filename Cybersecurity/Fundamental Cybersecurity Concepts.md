@@ -310,16 +310,13 @@ Assume that perimeter defences will fail and internal threats exist. Systems sho
 #### Sensors
 
 ##### Infrared Pressure
-
-- Detects changes in infrared signature or pressure—used in perimeter alarms.
+ Detects changes in infrared signature or pressure—used in perimeter alarms.
 
 ##### Microwave
-
-- Sends signals between transmitters and receivers—detects motion.
+ Sends signals between transmitters and receivers—detects motion.
 
 ##### Ultrasonic
-
-- Emits high-frequency sound waves—detects presence or movement via Doppler shift.
+ Emits high-frequency sound waves—detects presence or movement via Doppler shift.
 
 ### Deception and Disruption Technology
 
