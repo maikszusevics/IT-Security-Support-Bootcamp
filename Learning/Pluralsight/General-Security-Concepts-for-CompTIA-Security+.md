@@ -87,7 +87,6 @@ Control that provides an alternate solution to a countermeasure that is too diff
 - Want to put you out of business or slow you down 
 - Trying to get an advantage on you 
 
-
 ## Fundamental Security Concepts
 ### CIA Triad (Confidentiality, Integrity, and Availability)
 Three elements that help ensure that data is kept secure, accurate, and accessible to authorised users.
@@ -250,7 +249,6 @@ Assume that perimeter defences will fail and internal threats exist. Systems sho
 - Automates access decisions based on pre-defined logic.
 - Reduces human error and improves auditability.
 
-
 ### Data Plane
 
 #### Implicit Trust Zones
@@ -341,3 +339,30 @@ Assume that perimeter defences will fail and internal threats exist. Systems sho
 
 - Fake credentials or records embedded in real systems.
 - Use cases include detecting unauthorised access, insider threats, or lateral movement.
+
+## Digital Forensics 
+
+**Digital forensics** is a branch of forensic science focused on the identification, preservation, analysis, and presentation of digital evidence in a legally admissible way. It plays a crucial role in modern investigations, particularly due to the rise of **big data**, requiring professionals to process vast volumes of information.
+
+Digital forensic professionals retrieve and analyse data from electronic devices such as computers, tablets, and smartphones. Beyond device-level analysis, it is essential to **secure both endpoint devices and the network infrastructure**, using methods such as:
+- Securing administrative access
+- Maintaining strong password policies
+- Implementing encrypted communications
+
+### ACPO Guidelines
+
+The **Association of Chief Police Officers (ACPO)** provides a widely adopted **Good Practice Guide** for handling digital evidence within police forces in England, Wales, and Northern Ireland.
+
+#### The Four Principles of Digital Evidence:
+
+1. **No Action Should Change the Data**  
+   - Collection and analysis must not alter the original evidence to maintain integrity.
+
+2. **The Seizure of Evidence Must Be Authorised**  
+   - Proper authority must be in place to collect digital evidence.
+
+3. **Access to Evidence Should Be Controlled and Recorded**  
+   - All access and handling must be logged to maintain a reliable **audit trail**.
+
+4. **Evidence Should Be Stored Securely**  
+   - Ensure secure storage to prevent tampering or loss.
