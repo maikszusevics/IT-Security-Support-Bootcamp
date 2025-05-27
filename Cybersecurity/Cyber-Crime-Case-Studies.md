@@ -97,7 +97,6 @@ This case study examines major ransomware incidents that have impacted the UK’
 | **Public Trust** | Confidence in NHS IT systems undermined |
 | **Financial Loss** | Estimated £92m (WannaCry: £19m for lost services + £73m for recovery and upgrades) |
 
-
 ## Response & Mitigation
 
 ### After WannaCry (2017–2021)
