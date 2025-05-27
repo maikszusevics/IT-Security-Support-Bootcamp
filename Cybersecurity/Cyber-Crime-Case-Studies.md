@@ -57,7 +57,7 @@ This case study examines major ransomware incidents that have impacted the UK’
 
 - **Date**: May 2024  
 - **Threat Actor**: Qilin ransomware group (Russia-based)  
-- **Target**: Synnovis — pathology service provider for NHS Trusts  
+- **Target**: Synnovis , pathology service provider for NHS Trusts  
 - **Type**: Targeted ransomware + data exfiltration
 
 ### Technical Details
