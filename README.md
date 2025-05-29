@@ -33,6 +33,7 @@ This repository is not only a record of learning but also a **portfolio of evide
 
 ## Current Priorities:
 
+- Burnout management 
 - Cisco Packet Tracer course
 - CompTIA Security+ on Pluralsight
 - TryHackMe hands-on learning
