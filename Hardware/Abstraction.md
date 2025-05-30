@@ -7,7 +7,7 @@ A **bit** is the smallest unit of data in computing. It can be:
 - `1` (on / true)
 - `0` (off / false)
 
-In hardware, these states are represented by electrical signals—like 5V for `1` and 0V for `0`.
+In hardware, these states are represented by electrical signals, like 5V for `1` and 0V for `0`.
 
 Eight bits make a **byte**, which can store values like characters or numbers.
 
