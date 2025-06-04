@@ -35,7 +35,7 @@ A **transistor** is a microscopic switch that turns current on or off. Billions 
 By connecting these gates in various configurations, engineers create circuits capable of arithmetic operations, memory storage, and decision-making.
 ## Analog vs Digital Signals
 
-- **Analog** = Continuous (like sound waves or temperature)
+- **Analog** = Continuous granularity (like sound waves or temperature)
 - **Digital** = Binary (1s and 0s)
 
 Digital signals are easier for computers to store, process, and transmit with less error.
