@@ -56,7 +56,7 @@ The first 24 bits (255.255.255) are the Network ID. The last 8 bits (.0) are the
 
 In the early days of the Internet, IP addresses were divided into **classes**:
 
-- **Class A**: 1.0.0.0 - 126.255.255.255
+- **Class A**: 1.0.0.0 - 127.255.255.255
 - **Class B**: 128.0.0.0 - 191.255.255.255
 - **Class C**: 192.0.0.0 - 223.255.255.255
 - **Class D**: 224.0.0.0 - 239.255.255.255 (used for multicast)
