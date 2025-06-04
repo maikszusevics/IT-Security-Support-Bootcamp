@@ -155,25 +155,25 @@ Protocols are **sets of rules**. **Network protocols** are needed to ensure that
 
 ## Protocol Overview Table
 
-|Protocol|Port(s)|Purpose / Function|TCP/IP Layer|
-|---|---|---|---|
-|IP|N/A|Addressing and routing|Internet|
-|DHCP|UDP 67/68|Dynamic IP assignment|Application|
-|DNS|TCP/UDP 53|Domain name to IP resolution|Application|
-|ARP|N/A|Resolves IP to MAC (LAN)|Network Access (Link)|
-|TCP|N/A|Reliable, ordered data transmission|Transport|
-|UDP|N/A|Fast, unreliable data transmission|Transport|
-|HTTP|TCP 80|Web communication (insecure)|Application|
-|HTTPS|TCP 443|Encrypted web communication|Application|
-|FTP|TCP 20/21|File transfer between systems|Application|
-|ICMP|N/A|Network diagnostics and error reporting|Internet|
-|NTP|UDP 123|Time synchronization|Application|
-|SSH|TCP 22|Secure remote access|Application|
-|SMTP|TCP 25/587|Sending email|Application|
-|IMAP4|TCP 143/993|Email retrieval (leave on server)|Application|
-|POP3|TCP 110/995|Email retrieval (download & delete)|Application|
-|LDAP|TCP 389/636|Directory services and authentication|Application|
-|RDP|TCP 3389|Remote desktop access|Application|
-|OSPF|IP Protocol 89|Dynamic routing (intra-domain)|Internet|
-|RIPv2|UDP 520|Basic dynamic routing|Application|
-|EIGRP|IP Protocol 88|Cisco routing protocol|Internet|
+| Protocol | Port(s)        | Purpose / Function                      | TCP/IP Layer          |
+| -------- | -------------- | --------------------------------------- | --------------------- |
+| IP       | N/A            | Addressing and routing                  | Internet              |
+| DHCP     | UDP 67/68      | Dynamic IP assignment                   | Application           |
+| DNS      | TCP/UDP 53     | Domain name to IP resolution            | Application           |
+| ARP      | N/A            | Resolves IP to MAC (LAN)                | Network Access (Link) |
+| TCP      | N/A            | Reliable, ordered data transmission     | Transport             |
+| UDP      | N/A            | Fast, unreliable data transmission      | Transport             |
+| HTTP     | TCP 80         | Web communication (insecure)            | Application           |
+| HTTPS    | TCP 443        | Encrypted web communication             | Application           |
+| FTP      | TCP 20/21      | File transfer between systems           | Application           |
+| ICMP     | N/A            | Network diagnostics and error reporting | Internet              |
+| NTP      | UDP 123        | Time synchronization                    | Application           |
+| SSH      | TCP 22         | Secure remote access                    | Application           |
+| SMTP     | TCP 25/587     | Sending email                           | Application           |
+| IMAP4    | TCP 143/993    | Email retrieval (leave on server)       | Application           |
+| POP3     | TCP 110/995    | Email retrieval (download & delete)     | Application           |
+| LDAP     | TCP 389/636    | Directory services and authentication   | Application           |
+| RDP      | TCP 3389       | Remote desktop access                   | Application           |
+| OSPF     | IP Protocol 89 | Dynamic routing (intra-domain)          | Internet              |
+| RIPv2    | UDP 520        | Basic dynamic routing                   | Application           |
+| EIGRP    | IP Protocol 88 | Cisco routing protocol                  | Internet              |
