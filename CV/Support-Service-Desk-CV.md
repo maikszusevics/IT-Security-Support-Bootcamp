@@ -30,12 +30,14 @@ Currently deepening skills in systems administration, networking, and cybersecur
 
 ## Soft Skills
 
-- Clear written and verbal communication  
-- Independent initiative & self-learning  
+- Excellent written and verbal communication  
+- Problem-solving under pressure  
+- High adaptability
+- Independent initiative 
 - Empathy and user patience  
 - Prioritisation and time management  
 - Collaborative team player  
-- Problem-solving under pressure  
+- Mentorship
 
 ---
 
@@ -51,9 +53,10 @@ Currently deepening skills in systems administration, networking, and cybersecur
   *Covered DevOps pipelines, automation, version control, and cloud fundamentals using AWS, Docker, Jenkins, Ansible, Terraform.*
 
 - **Certifications in Progress**  
-  - CompTIA Security+  
+  - CompTIA N+
+  - CompTIA s+
+  - CCNA
   - Microsoft Azure AZ-900  
-  - ITIL Fundamentals
 
 ---
 
