@@ -34,10 +34,10 @@ MAC sublayer controls access to the physical medium, serving as a mediator if mu
 
 - An Ethernet Frame represents data when it is transferred around a LAN at the Data Link layer.
 - Does not represent an entire email, document, video, etc. it is simply a portion of the data.
-- Note at this layer the frame contains no IP adresss and consists solely of MAC addresses
+- Note at this layer the frame contains no IP address and consists solely of MAC addresses
 - The protocol represents the application the data is for. For example: HTTP for a web browser. SMTP for an email client.
-- The data size of an Ethernet frame will often vary, but the maximym permitted size per frame is 1518 Bytes.
-- The FCS field contrains a checksum value which is used by the receiving side to prove that the data is not corrupted and is collated in the correct order, the algorithm used is cyclic redundancy check
+- The data size of an Ethernet frame will often vary, but the maximum permitted size per frame is 1518 Bytes.
+- The FCS field contains a checksum value which is used by the receiving side to prove that the data is not corrupted and is collated in the correct order, the algorithm used is cyclic redundancy check
 
 ![](Images/eframe.png)
 
