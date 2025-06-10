@@ -45,7 +45,7 @@ Examples of offences and infringements include:
 - Failure to respond to or facilitate individuals' rights (e.g., SARs).
 - Unlawful processing of personal data.
 
-In the UK, the **Information Commissioner's Office (ICO)**, which stands for **Information Commissioner's Office**, is the independent supervisory authority responsible for upholding information rights in the public interest and enforcing GDPR. The ICO has the power to investigate complaints, conduct audits, issue warnings, reprimands, orders, and impose fines.
+In the UK, the **Information Commissioner's Office (ICO)** is the independent supervisory authority responsible for upholding information rights in the public interest and enforcing GDPR. The ICO has the power to investigate complaints, conduct audits, issue warnings, reprimands, orders, and impose fines.
 
 #### Impact on Industry
 
