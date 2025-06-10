@@ -28,7 +28,7 @@ MAC sublayer controls access to the physical medium, serving as a mediator if mu
 - CSMA/CD
 	- Carrier Sense Multiple Access - Collision Detection. Used on Ethernet-based networks to detect collisions of data.
 - CSMA/CA
-	- Carrier Sense Multiple Access - Collision Avoidance. Used to prevent collisions of data.
+	- Carrier Sense Multiple Access - Collision Avoidance. Used to prevent collisions of data over wireless connections.
 
 **Ethernet Frames**
 
