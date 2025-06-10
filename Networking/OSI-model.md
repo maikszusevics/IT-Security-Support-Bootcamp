@@ -1,90 +1,117 @@
 # OSI model
 
-The **OSI (Open Systems Interconnection)** model is a **conceptual framework** that standardises how computer systems communicate over a network. It consists of **7 layers**, and each layer has a specific responsibility in the communication process.
 
-Every layer is rule-based. At the physical layer the rules that tell us how to move data are Ethernet and wireless standards (802.3, 802.11). Protocols are rules which create standardised structures of data above the level of Ethernet standards.
+**The OSI Model (Open Systems Interconnection)** The **OSI model** is a **conceptual framework** that standardises how computer systems communicate over a network. It is a **theoretical seven-layer model** primarily used for teaching and deepening understanding of network communication.
 
-## Layer 1 - Physical
+We'll follow the journey of data as it leaves a computer (encapsulation) and how it's processed when it arrives at its destination (de-encapsulation).
 
-- **Role**: Transmits raw binary data (1s and 0s) over a physical medium.
-- **What it includes**: Hardware like cables, switches, connectors, and radio signals.
-- **Examples**: Ethernet cables, fibre optics, WiFi signals.
+---
 
-## Layer 2 - Data Link
+### Layer 7: Application Layer
 
-- **Role**: Packages raw bits into frames and manages direct node-to-node communication on the same Local Area Network (LAN).
-- **Responsibilities**:
-  - Basic error detection and correction
-  - MAC (Media Access Control) addressing
-- **Examples**: Ethernet, MAC addresses, switches.
+- **Role:** This is the layer that interacts directly with user applications. It's what you, as the user, directly "see" and use. It provides network services to applications.
+- **Responsibilities:** Identifying communication partners, determining resource availability, and synchronising communication. It's responsible for the overall availability of network resources for applications.
+- **PDU (Protocol Data Unit):** Often referred to simply as **Data** or **Application Data**.
+- **How data moves:** Your application (like a web browser, email client, or file transfer program) generates the raw information you want to send. This data is then passed down to the Presentation Layer (Layer 6).
+- **Examples:** HTTP (for web Browse), FTP (for file transfer), SMTP (for sending email), DNS (for translating domain names to IP addresses).
 
-#### Logical Link Control (LLC) Sublayer
+---
 
-The **LLC sublayer** serves as the connection point between the **Network Layer (Layer 3)** and the **Media Access Control (MAC) sublayer** below it. A major reason for the LLC sublayer (or the EtherType field in Ethernet) is to clearly identify which Network Layer protocol (like IP, ARP, or IPv6) the encapsulated data belongs to. This prevents the receiving system from trying to process an ARP packet as an IP packet, ensuring that different Network Layer protocols can coexist and be handled correctly.
+### Layer 6: Presentation Layer
 
-#### Media Access Control (MAC) Sublayer
+- **Role:** This layer is the "translator" or "formatter." It ensures that data is presented in a format that the receiving application can understand.
+- **Responsibilities:**
+    - **Data formatting and translation:** Converting data between different formats.
+    - **Data encryption/decryption:** Ensuring secure communication.
+    - **Data compression/decompression:** Reducing the amount of data to be transmitted.
+- **PDU:** Still considered **Data** or **Application Data**, but now formatted or translated.
+- **How data moves:** The Application Layer's data is formatted and potentially compressed or encrypted here. This "prepared" data is then passed down to the Session Layer (Layer 5).
+- **Examples:** JPEG, GIF, MPEG (for image/video formats), SSL/TLS (for encryption).
 
-MAC sublayer controls access to the physical medium, serving as a mediator if multiple devices are competing for the same link.
-- CSMA/CD
-	- Carrier Sense Multiple Access - Collision Detection. Used on Ethernet-based networks to detect collisions of data.
-- CSMA/CA
-	- Carrier Sense Multiple Access - Collision Avoidance. Used to prevent collisions of data over wireless connections.
+---
 
-**Ethernet Frames**
+### Layer 5: Session Layer
 
-- An Ethernet Frame represents data when it is transferred around a LAN at the Data Link layer.
-- Does not represent an entire email, document, video, etc. it is simply a portion of the data.
-- Note at this layer the frame contains no IP address and consists solely of MAC addresses
-- The protocol represents the application the data is for. For example: HTTP for a web browser. SMTP for an email client.
-- The data size of an Ethernet frame will often vary, but the maximum permitted size per frame is 1518 Bytes.
-- The FCS field contains a checksum value which is used by the receiving side to prove that the data is not corrupted and is collated in the correct order, the algorithm used is cyclic redundancy check
+- **Role:** This layer establishes, manages, and terminates communication sessions between applications. Think of it as opening, managing, and closing a specific conversation.
+- **Responsibilities:**
+    - **Session establishment/teardown:** Setting up and ending communication dialogues.
+    - **Synchronisation and checkpointing:** Allowing for recovery from partial failures by inserting checkpoints into the data stream. If a connection fails, the session can resume from the last checkpoint instead of starting over.
+    - **Dialog control:** Determining whether communication is half-duplex (one-way at a time) or full-duplex (two-way simultaneously).
+- **PDU:** Still **Data** or **Application Data**, but now part of an active session.
+- **How data moves:** The Presentation Layer's data becomes part of a managed session. This session-managed data then moves down to the Transport Layer (Layer 4).
+- **Examples:** Online games establish sessions for voice chat, applications like Zoom establish and manage sessions between participants.
 
-![](Images/eframe.png)
+---
 
+### Layer 4: Transport Layer
 
-## Layer 3 - Network
+- **Role:** Ensures reliable or fast data transfer between systems by managing end-to-end communication.
+- **Responsibilities:**
+    - **Segmentation/Reassembly:** Breaking down large chunks of data from the upper layers into smaller, manageable pieces (segments) for transmission, and reassembling them at the destination.
+    - **Error Detection and Correction (for TCP):** Detecting lost or corrupted segments and requesting retransmission.
+    - **Flow Control:** Managing the transmission rate to prevent a fast sender from overwhelming a slow receiver.
+    - **Port Addressing:** Uses **port numbers** to identify specific applications or services on a host (e.g., web server on port 80, email on port 25).
+- **PDU:**
+    - **Segment** (for TCP - Transmission Control Protocol): Connection-oriented, reliable, ordered delivery.
+    - **Datagram** (for UDP - User Datagram Protocol): Connectionless, faster, less reliable.
+- **How data moves:**
+    - **Encapsulation (Sending Down):** The Transport Layer takes the data from the Session Layer, adds a **Layer 4 Header** (containing port numbers, sequence numbers, etc.), creating a **Segment** (if using TCP) or a **Datagram** (if using UDP). This Segment/Datagram then becomes the payload for the Network Layer.
+    - **De-encapsulation (Receiving Up):** When a Layer 3 Packet arrives, the Transport Layer removes its Layer 4 Header, checks for errors/orders (for TCP), and passes the reassembled data up to the Session Layer.
+- **Examples:** TCP, UDP.
 
-- **Role**: Handles logical addressing and routing across different networks.
-- **Responsibilities**:
-  - Determines best path for data
-  - Delivers packets across multiple networks
-	  - an IP packet represents data when it is transferred at the Network Layer of the OSI Model.
-	  - It takes the Ethernet Frame and adds logical addressing using IP so the data can be transported between networks.
-- **Examples**: IP addresses, routers, Internet Protocol (IP).
+---
 
-## Layer 4 - Transport
+### Layer 3: Network Layer
 
-- **Role**: Ensures reliable or fast data transfer between systems.
-- **Responsibilities**:
-  - Segmentation and reassembly
-  - Error detection and correction
-  - Flow control
-- **Examples**: TCP (connection orientated **segments**), UDP (connectionless **datagrams**), port numbers.
+- **Role:** Responsible for **addressing** and **routing data across different networks**. It determines the best path for data to travel from the source to the final destination.
+- **Responsibilities:**
+    - **Logical Addressing (IP Addressing):** Uses **IP addresses** to uniquely identify devices across different networks.
+    - **Routing:** Determining the optimal path for data packets to reach their destination, potentially across many different intermediate networks. This is where routers operate.
+    - **Packet Fragmentation:** Breaking down large packets into smaller ones if a network link has a smaller maximum transmission unit (MTU).
+- **PDU:** **Packet**.
+- **How data moves:**
+    - **Encapsulation (Sending Down):** The Network Layer takes the Segment/Datagram from the Transport Layer, adds a **Layer 3 Header** (containing source and destination IP addresses). This newly formed unit is called a **Packet**. This Packet then becomes the payload for the Data Link Layer.
+    - **De-encapsulation (Receiving Up):** When a Layer 2 Frame arrives, the Network Layer removes its Layer 3 Header, checks the destination IP, and if it's for this device, passes the Segment/Datagram up to the Transport Layer. If it's for another network, it routes it accordingly.
+- **Examples:** Internet Protocol (IP), routers.
 
-## Layer 5 - Session
+---
 
-- **Role**: Establishes, manages, and ends communication sessions between applications via **source port** and **destination port**.
-- **Responsibilities**:
-  - Session establishment and teardown
-  - Synchronisation
-- **Examples**: NetBIOS, RPC (Remote Procedure Call).
+### Layer 2: Data Link Layer
 
-## Layer 6 - Presentation
+- **Role:** Provides **node-to-node data transfer** within the **same local network segment**. It takes packets from the Network Layer and frames them for transmission over the physical medium. It also handles basic error detection and physical addressing.
+- **Responsibilities:**
+    - **Framing:** Encapsulating Layer 3 Packets into **Frames** by adding a header and a trailer.
+    - **Physical Addressing (MAC Addressing):** Uses **MAC addresses** (Media Access Control addresses) which are unique hardware addresses for devices on a local network segment.
+    - **Error Detection:** Adds a **Frame Check Sequence (FCS)** in the trailer to detect errors in transmitted bits.
+    - **MAC sublayer:** controls access to the physical medium, serving as a mediator if multiple devices are competing for the same link.
+		- CSMA/CD
+			- Carrier Sense Multiple Access - Collision Detection. Used on Ethernet-based networks to detect collisions of data.
+		- CSMA/CA
+			- Carrier Sense Multiple Access - Collision Avoidance. Used to prevent collisions of data over wireless connections.
+    - **Logical Link Control (LLC Sublayer):** Provides a standardised interface to the Network Layer (Layer 3). Its primary job is to **identify _which_ Network Layer protocol** (like IP, IPv6, or ARP) is encapsulated in the frame, ensuring the receiving system knows exactly where to direct that data.
+- **PDU:** **Frame**.
+- **How data moves:**
+    - **Encapsulation (Sending Down):** The Data Link Layer takes the Packet from the Network Layer, adds a **Layer 2 Header** (with source/destination MAC addresses) and a **Layer 2 Trailer** (with FCS). This completed unit is called a **Frame**. This Frame is then passed to the Physical Layer for conversion into raw bits.
+    - **De-encapsulation (Receiving Up):** The Data Link Layer receives raw bits from the Physical Layer, reassembles them into a Frame, checks the MAC address and FCS. If valid and for this device, it removes the Layer 2 Header and Trailer, passing the Packet up to the Network Layer.
 
-- **Role**: Translates data formats between the application and network.
-- **Responsibilities**:
-  - Encryption and decryption
-  - Data compression
-  - Format translation
-- **Examples**: JPEG, GIF, MPEG, SSL/TLS.
+	- **Note:** When using WiFi 802.11, LLC headers are also added (sending down) or removed (receiving up). However when using modern 802.3 Ethernet, the network layer protocol is already included in the Ethernet II header information.
+		- **Bonus note:** LLC headers are still explicitly expected on wired networks if they use older/legacy network protocols such as IEEE 802.2
+- **Examples:** Ethernet, Wi-Fi (802.11), MAC addresses, network switches.
 
-## Layer 7 - Application
+---
 
-- **Role**: Interfaces directly with user-facing applications that need network access.
-- **Responsibilities**:
-  - Provides services like email, file transfer, web browsing
-  - Ensures proper resource availability
-- **Examples**: HTTP, FTP, SMTP, DNS.
+### Layer 1: Physical Layer
+
+- **Role:** This is the most basic layer, responsible for the **physical transmission of raw binary data (1s and 0s)** over the network medium.
+- **Responsibilities:**
+    - Defining physical characteristics of the network (e.g., voltage levels, cable types, connectors, data rates, signalling methods).
+    - Transmitting and receiving raw bit streams.
+    - **Converting frames into electrical signals, light pulses, or radio waves** suitable for the specific medium.
+- **PDU:** **Bits** (raw binary data).
+- **How data moves:**
+    - **Encapsulation (Sending Down):** The Physical Layer takes the Frame from the Data Link Layer and converts it into a stream of electrical signals, light pulses, or radio waves (bits) that can travel across the physical medium (e.g., an Ethernet cable, fiber optic cable, or Wi-Fi airwaves).
+    - **De-encapsulation (Receiving Up):** The Physical Layer receives these raw signals from the medium, converts them back into bits, and passes them up to the Data Link Layer to be reassembled into a Frame.
+- **Examples:** Ethernet cables, fibre optic cables, Wi-Fi radio waves, USB, network interface cards (NICs).
 
 ### Intersection of OSI and TCP/IP
 
