@@ -20,7 +20,7 @@ Every layer is rule-based. At the physical layer the rules that tell us how to m
 
 #### Logical Link Control (LLC) Sublayer
 
-The LLC sublayer serves as the connection point between the physical link and all higher layer protocols. It ensures that protocols like UP can function regardless of what type of physical tech is being used.
+The **LLC sublayer** serves as the connection point between the **Network Layer (Layer 3)** and the **Media Access Control (MAC) sublayer** below it. A major reason for the LLC sublayer (or the EtherType field in Ethernet) is to clearly identify which Network Layer protocol (like IP, ARP, or IPv6) the encapsulated data belongs to. This prevents the receiving system from trying to process an ARP packet as an IP packet, ensuring that different Network Layer protocols can coexist and be handled correctly.
 
 #### Media Access Control (MAC) Sublayer
 
