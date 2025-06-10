@@ -48,7 +48,7 @@ Conversion between the two:
 
 Data travels through a computer and network in layers:
 
-1. **TDU** - The actual message (e.g., a file or image)
+1. **TDU (Transmission Data Unit)** - The actual message (e.g., a file or image)
 2. **Segments** - Breaks the message into parts for transport
 3. **Datagrams** - Adds IP info so it can move across networks
 4. **Packets** - Adds instructions for how to handle the data
