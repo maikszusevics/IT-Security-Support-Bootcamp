@@ -30,7 +30,7 @@ Type 1 hypervisors run directly on the host hardware, without an underlying oper
 - **Direct Hardware Access:** They have direct access to the physical hardware resources (CPU, memory, I/O devices), which minimises latency and overhead.
 - **High Performance:** Due to direct hardware interaction, Type 1 hypervisors generally offer the best performance for virtualised workloads.
 - **Enhanced Security:** With no host OS to compromise, the attack surface is significantly reduced, making them highly secure.
-- **Scalability:** They are designed to scale to large numbers of VMs and high-resource workloads, making them suitable for data centers and enterprise environments.
+- **Scalability:** They are designed to scale to large numbers of VMs and high-resource workloads, making them suitable for datacentres and enterprise environments.
 - **Examples:** VMware ESXi, Microsoft Hyper-V, Citrix XenServer (now TBD), KVM (Kernel-based Virtual Machine – integrated into Linux kernel).
 
 **Architecture:**
@@ -102,3 +102,6 @@ While hypervisors offer significant benefits, it's important to acknowledge that
 
 The degree of overhead varies significantly between hypervisor types and implementations, with Type 1 hypervisors generally having lower overhead than Type 2. Hardware-assisted virtualisation and paravirtualisation techniques aim to minimise this overhead.
 
+## Conclusion
+
+Hypervisors are the unsung heroes of modern computing infrastructure, underpinning cloud computing, datacentres, and even many personal computing setups. By abstracting hardware and enabling the efficient sharing of resources, they have revolutionised how we deploy, manage, and scale applications. Understanding the different types of hypervisors, their core functionalities, and the techniques they employ is essential for anyone involved in managing or developing for virtualised environments. As virtualisation continues to evolve, with technologies like containerisation building upon similar principles, the fundamental role of the hypervisor in bridging the gap between software and hardware remains as critical as ever.
