@@ -36,5 +36,5 @@ This repository is not only a record of learning but also a **portfolio of evide
 - Burnout management 
 - Cisco Packet Tracer course
 - CompTIA Security+ on Pluralsight
-- TryHackMe hands-on learning
+- CompTIA Netowork+ on Pluralsight
 - Shell scripting for general convenience and practise
