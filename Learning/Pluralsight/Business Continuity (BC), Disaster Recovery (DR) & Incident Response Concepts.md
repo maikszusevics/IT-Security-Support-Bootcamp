@@ -1,7 +1,6 @@
 # business continuity, disaster recovery, and incident response
 
-
-## Incident Response
+## Outcomes of the Elements of a BCMS
 
 Outcomes of a Business Continuity Management System:
 Incident response planning 
@@ -10,14 +9,15 @@ Incident response planning
 	Documentation 
 	Return to normal 
 Business continuity Planning 
-	BIA (business impact analysis)
-	Critical Business Functions 
-	Recovery Time objective 
-	Data recovery Point objective 
+	**Business Impact Analysis (BIA)**
+	**Critical Business Functions (CBFs)**
+	**Recovery Time objective (RTO)**
+	**Data recovery Point objective (RPO)**
 	Requirements to enable recovery of systems 
 Disaster Recovery Planning
 	Relocation of IT and other services to another location 
 
+## Incident Response Planning
 
 Event - any measurable occurrence 
 incident - a type of event with the potential to affect business mission 
@@ -122,3 +122,140 @@ Reporting
 		What was done to address and mitigate 
 		Commendations for staff
 		Lessons Learned 
+
+## Business Continuity Planning
+### BCMS Program Management 
+
+- Project Initiation 
+- Business impact analysis
+- Write the plan(s)
+- Implement and test the plans 
+- Maintain the plans 
+
+### BIA - Business Impact Analysis 
+arguably the most important step 
+Analysis of the impact on the business 
+Determines:
+	- Critical business functions (some departments are more important than others)
+	- Critical Supporting processes (dependencies of the critical departments)
+	- Resources requirements
+	- Priorities for recovery 
+BIA is about impact over time - unlike risk management which is impact and likelihood
+Normal Ops -> crisis -> level of business drops (no longer meeting our mission) -> initially people understand that there might be an issue sometimes -> over time there is an exponential amount of impact (reputation/financial damage)
+What we try to determine is at what level of impact can we no longer continue operating and have to shut down the business. It is the maximum tolerable downtime. 
+Group business process with its supporting processes 
+- Cannot recover essential services without also recovering their supporting services (dependencies)
+
+Tolerable outages:
+	Determine the **maximum tolerable downtime (MTD)** for the critical processes
+	Determine the **recovery time objectives (RTO)**
+	RTO must be significantly less than MTD
+	Determine the **recovery point objectives (RPO)**
+		Measures the amount of data can be lost in case of an outage
+		How old would the data be when it is restored
+Resources requirements 
+	Determine the resource requirements to restore systems 
+		Includes critical subprocesses/dependencies 
+		Includes controls put in place to make sure this cannot easily happen again 
+
+Cost of recovery is often the inverse of the duration of the outage 
+	If there is a very minimal outage time the cost of recovery is very high 
+	Want to find a balance point where the cost of recovery is in line with the impact 
+
+![[Pasted image 20250617144946.png]]
+
+
+Priorities
+	Establish system recovery priority 
+		Based on cost of recovery options and impact on the business 
+		Option must be 
+			Feasible
+			Acceptance
+			Suitable
+		Often contentious 
+		Must be approved by senior executes 
+
+### Data Preservation and Recovery
+
+RPO drives backup strategies 
+
+- Cloud Storage 
+- Internal hard drives 
+- removable storage media 
+- mirroring 
+- vaulting 
+- Remote Journaling 
+
+System resilience 
+	Fault tolerant 
+		Clustering
+	High availability 
+		Failover
+	Quality of service
+
+
+## Disaster Recovery
+
+RELOCATION OF IT AND OTHER SERVICES TO AN ALTERNATE LOCATION 
+
+Recovery sites
+
+Site selection 
+	RTO drives site selection 
+	Faster Recovery = higher costs
+	systems recovery sequence based on criticality to the business 
+	a manager may have employees and systems at different sites based on process criticality 
+
+the selection of a contingency site:
+	Cost
+	Security
+	Availability (meet RTO)
+	Proximity
+	Logistics for employees
+	Support
+
+Writing the Plans 
+	written by the entire BCP team
+	Action orientated
+	plan written to address the most resource intensive situation (worst case scenario)
+		All lesser situation are included
+
+A crisis is a time of elevated risk for an organisation. many normal controls are missing 
+
+Assign teams
+	Roles and responsibilities
+		Leaders and deputies
+		Cross training 
+	Reporting relationships
+	Training and tools 
+
+Communication and reporting 
+	Stakeholders
+		Management
+		Regulatory agencies
+		Customers
+			Privacy breach
+		Suppliers
+		Shareholders
+
+Reporting
+	Regular reports on the status of the crisis to management 
+		Emergency operations centre (EOC)
+		Milestones and progress
+
+Restoration
+	Recovery of business functions 
+		Prioritises the most critical business processes first
+		Restoration to "normal" starts with the least critical business functions first
+
+Testing the plan 
+	find deficiencies 
+	train staff
+		Develop skills
+	Thorough tests
+		Realistic
+	Start small - then increase
+		Apply lessons learned
+
+
+![[Pasted image 20250617151507.png]]![[Pasted image 20250617151622.png]]
