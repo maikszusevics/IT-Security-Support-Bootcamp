@@ -255,7 +255,7 @@ Assume that perimeter defences will fail and internal threats exist. Systems sho
 
 - Deprecated concept in Zero Trust.
 - Traditional networks assumed internal traffic was "safe."
-- Modern approach removes this assumption—internal and external are treated with equal scrutiny.
+- Modern approach removes this assumption, internal and external are treated with equal scrutiny.
 
 #### Subject/System
 
@@ -308,15 +308,15 @@ Assume that perimeter defences will fail and internal threats exist. Systems sho
 
 ##### Infrared Pressure
 
-- Detects changes in infrared signature or pressure—used in perimeter alarms.
+- Detects changes in infrared signature or pressure, used in perimeter alarms.
 
 ##### Microwave
 
-- Sends signals between transmitters and receivers—detects motion.
+- Sends signals between transmitters and receivers, detects motion.
 
 ##### Ultrasonic
 
-- Emits high-frequency sound waves—detects presence or movement via Doppler shift.
+- Emits high-frequency sound waves, detects presence or movement via Doppler shift.
 
 ## Deception and Disruption Technology
 

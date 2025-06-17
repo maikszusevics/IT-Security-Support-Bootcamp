@@ -34,7 +34,7 @@ A **Network Interface Card** (NIC) enables a computer to connect to a network.
 
 - The device that serves as the **exit point** from a local network to external networks.
 - Devices send data to the default gateway when the destination IP is **outside** their subnet.
-- Acts like the **front door** of a house—used to reach the outside world.
+- Acts like the **front door** of a house, used to reach the outside world.
 
 
 #### **Modem (Modulator-Demodulator)**

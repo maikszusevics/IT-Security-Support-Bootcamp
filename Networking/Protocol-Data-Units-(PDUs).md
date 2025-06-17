@@ -49,7 +49,7 @@ Each layer of the OSI model has a corresponding PDU:
 
 ### 5. **Data (Upper Layers)**
 
-- What you interact with as a user—your actual file, message, or stream.
+- What you interact with as a user, your actual file, message, or stream.
 
 ---
 

@@ -18,7 +18,7 @@ This document outlines how the HRA intersects with IT, and why understanding it 
   - Any misuse, poor handling, or failure to secure data can breach this right.
   - This right underpins **data protection laws** like the **UK GDPR** and **Data Protection Act 2018**.
 
-> As a systems administrator, developer, or support agent, you're expected to protect user privacy—both legally and ethically.
+> As a systems administrator, developer, or support agent, you're expected to protect user privacy, both legally and ethically.
 
 ---
 
@@ -26,7 +26,7 @@ This document outlines how the HRA intersects with IT, and why understanding it 
 
 - **What it says:** Everyone has the right to freedom of expression, including the right to receive and impart information and ideas.
 - **Why it matters in IT:**
-  - IT platforms host and transmit content—so there's a need to balance **moderation** with **freedom of speech**.
+  - IT platforms host and transmit content, so there's a need to balance **moderation** with **freedom of speech**.
   - IT professionals may be involved in **content filtering**, **firewall configuration**, or **social media moderation**.
   - Important when dealing with **employee monitoring** or **internet usage policies** in workplaces.
 
@@ -71,7 +71,7 @@ This document outlines how the HRA intersects with IT, and why understanding it 
 ## Key Takeaways
 
 - The Human Rights Act shapes **how data is handled**, **how systems are designed**, and **how people are treated** within tech environments.
-- IT professionals have a responsibility to uphold these rights in practice—not just as a legal formality, but as a **core ethical principle**.
+- IT professionals have a responsibility to uphold these rights in practice, not just as a legal formality, but as a **core ethical principle**.
 - Failing to consider human rights in IT systems can lead to:
   - Legal consequences
   - Loss of user trust

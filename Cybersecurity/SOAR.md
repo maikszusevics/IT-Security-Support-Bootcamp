@@ -73,7 +73,7 @@
 
 ## Summary
 
-SOAR platforms extend the capabilities of SIEM by adding powerful automation and orchestration. They enable security operations teams to handle increasing alert volumes with greater speed, precision, and consistency. When implemented properly, SOAR acts as a force multiplier—freeing analysts to focus on complex investigations and strategic initiatives.
+SOAR platforms extend the capabilities of SIEM by adding powerful automation and orchestration. They enable security operations teams to handle increasing alert volumes with greater speed, precision, and consistency. When implemented properly, SOAR acts as a force multiplier, freeing analysts to focus on complex investigations and strategic initiatives.
 
 ## Further Reading
 

@@ -81,7 +81,7 @@ Protocols are **sets of rules**. **Network protocols** are needed to ensure that
 ## HTTP / HTTPS (Hypertext Transfer Protocol / Secure)
 
 - **HTTP**: Protocol for accessing web content.
-- **HTTPS**: HTTP over SSL/TLS — adds **encryption** for secure communication.
+- **HTTPS**: HTTP over SSL/TLS - adds **encryption** for secure communication.
 - Operates over **TCP port 80 (HTTP)** and **443 (HTTPS)**.
 
 
