@@ -162,7 +162,7 @@ Cost of recovery is often the inverse of the duration of the outage
 	If there is a very minimal outage time the cost of recovery is very high 
 	Want to find a balance point where the cost of recovery is in line with the impact 
 
-![[Pasted image 20250617144946.png]]
+![](Images/BCM1.png)
 
 
 Priorities
@@ -258,4 +258,4 @@ Testing the plan
 		Apply lessons learned
 
 
-![[Pasted image 20250617151507.png]]![[Pasted image 20250617151622.png]]
+![](Images/BCM2.png)![](Images/BCM3.png)
