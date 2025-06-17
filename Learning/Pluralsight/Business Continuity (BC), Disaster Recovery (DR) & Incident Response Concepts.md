@@ -1,4 +1,5 @@
 # business continuity, disaster recovery, and incident response
+> https://app.pluralsight.com/library/courses/business-continuity-disaster-recovery-incident-response-cc-cert/table-of-contents
 
 ## Outcomes of the Elements of a BCMS
 
