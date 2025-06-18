@@ -17,7 +17,7 @@ This domain refers to the active techniques used by threat actors to breach, dis
 
 ### 2. Deception
 
-Deception involves manipulating users or systems into performing unsafe actions or disclosing confidential information. This includes **phishing**, **social engineering**, **fake websites**, and **spoofed emails** — all tactics that rely on psychological manipulation. Deception is often a precursor to a larger attack or malware infection, making it a critical threat vector.
+Deception involves manipulating users or systems into performing unsafe actions or disclosing confidential information. This includes **phishing**, **social engineering**, **fake websites**, and **spoofed emails**,  all tactics that rely on psychological manipulation. Deception is often a precursor to a larger attack or malware infection, making it a critical threat vector.
 
 ### 3. Malware
 
