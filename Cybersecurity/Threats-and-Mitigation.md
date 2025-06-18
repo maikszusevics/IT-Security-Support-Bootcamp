@@ -11,6 +11,19 @@ In cybersecurity, a **threat** is any potential danger that could exploit a vuln
 > Motivations and capabilities vary widely between threat actors.  
 > A layered security approach, _defence in depth_, is essential for robust protection.
 
+### 1. Attacks
+
+This domain refers to the active techniques used by threat actors to breach, disrupt, or compromise systems. This includes **DDoS (Distributed Denial of Service) attacks**, **brute-force login attempts**, **SQL injection**, **man-in-the-middle attacks**, and other direct exploits aimed at stealing data or disabling systems. These are typically aggressive and often immediately detectable.
+
+### 2. Deception
+
+Deception involves manipulating users or systems into performing unsafe actions or disclosing confidential information. This includes **phishing**, **social engineering**, **fake websites**, and **spoofed emails** — all tactics that rely on psychological manipulation. Deception is often a precursor to a larger attack or malware infection, making it a critical threat vector.
+
+### 3. Malware
+
+Short for _malicious software_, this domain includes threats like **viruses**, **ransomware**, **worms**, **Trojans**, and **spyware**. Malware can be delivered through deceptive means (like phishing emails), or directly deployed through vulnerabilities. Its purpose may range from data theft to system destruction or espionage.
+
+## Types of Attackers
 ### Script Kiddies
 
 - Typically amateurs with little understanding of how attacks work.
@@ -68,7 +81,7 @@ In cybersecurity, a **threat** is any potential danger that could exploit a vuln
 
 ---
 
-## Mitigation Strategies per Threat Type
+## Mitigation Strategies per Attacker Type
 
 Security mitigation involves a combination of **preventive**, **detective**, and **responsive** controls. Below is a breakdown of recommended mitigations for each threat type:
 
