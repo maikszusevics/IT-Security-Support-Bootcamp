@@ -80,7 +80,45 @@ Short for _malicious software_, this domain includes threats like **viruses**, *
     _(depends on industry and value of proprietary data)_
 
 ---
+## Mitigation Strategies per Threat Type
 
+Effective cybersecurity requires tailored defenses for each threat domain. Below are key mitigation approaches suited to each type.
+
+#### Attacks – Mitigation Strategies
+
+- **Firewalls & Intrusion Detection/Prevention Systems (IDS/IPS):** Block and monitor unauthorised access attempts.
+    
+- **Regular Patch Management:** Keep systems and software updated to close off known vulnerabilities.
+    
+- **Network Segmentation:** Limit lateral movement within the network in case of a breach.
+    
+- **Rate Limiting & DDoS Protection:** Use tools like Cloudflare or AWS Shield to absorb or deflect traffic floods.
+    
+- **Strong Authentication Mechanisms:** Implement MFA and enforce complex password policies to reduce brute-force success rates.
+
+#### Deception – Mitigation Strategies
+
+- **Security Awareness Training:** Educate staff to recognise phishing, social engineering, and suspicious communication patterns.
+    
+- **Email Filtering & Spoofing Protection:** Deploy filters to block known malicious domains and enable SPF, DKIM, and DMARC.
+    
+- **Simulated Phishing Campaigns:** Run fake attacks internally to measure and improve staff responses.
+    
+- **Zero Trust Principles:** Don't assume internal users are inherently trustworthy; verify all access attempts.
+    
+- **URL & Attachment Sandboxing:** Analyse potentially malicious links and attachments before they reach the end user.
+
+#### Malware – Mitigation Strategies
+
+- **Endpoint Detection & Response (EDR):** Continuously monitor for and isolate malicious activity at the endpoint level.
+    
+- **Anti-malware & Antivirus Software:** Use real-time scanning and heuristic analysis to detect known and emerging threats.
+    
+- **Application Whitelisting:** Only allow approved applications to run on systems.
+    
+- **Regular Backups (Offline & Immutable):** Maintain up-to-date backups to recover data in case of ransomware or data corruption.
+    
+- **Least Privilege Principle:** Restrict user permissions so that malware has minimal access if it does get in.
 ## Mitigation Strategies per Attacker Type
 
 Security mitigation involves a combination of **preventive**, **detective**, and **responsive** controls. Below is a breakdown of recommended mitigations for each threat type:
