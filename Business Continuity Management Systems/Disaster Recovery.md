@@ -4,7 +4,7 @@ Disaster Recovery (DR) is a critical component of an organisation's overall busi
 
 ## Key Elements of Disaster Recovery Planning
 
-A comprehensive Disaster Recovery plan focuses on several key areas:
+A comprehensive Disaster Recovery plan (DRP) focuses on several key areas:
 *   **Relocation of Services**: Moving IT and other essential business services to a new site.
 *   **Rebuilding Systems**: Re-establishing IT infrastructure and processes at the new location.
 *   **Resource Recovery**: Ensuring the recovery of necessary data, personnel, and equipment to operate the business.
