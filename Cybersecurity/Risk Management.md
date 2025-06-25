@@ -2,7 +2,6 @@
 
 Risk management is a structured approach to identifying, assessing, and mitigating risks to an organisation’s assets, ensuring compliance with laws and regulations, and aligning IT with business objectives. Its core mission is to **prevent undesirable disruption to the organisation’s mission**.
 
----
 
 #### Understanding Risk and Attackers
 
@@ -16,7 +15,6 @@ Cybersecurity efforts primarily focus on protecting the **CIA Triad**:
 - **Integrity**: Guaranteeing the consistency and accuracy of data.
 - **Availability**: Ensuring information and systems are accessible when needed by authorised users.
 
----
 
 #### Risk Assessment Fundamentals
 
@@ -62,7 +60,6 @@ Controls can be categorised in various ways, including by their theme (people, p
 
 Creating a robust **controls environment** involves implementing specific measures to reduce likelihood and impact, such as Multi-Factor Authentication (MFA), security awareness training, spam filtering, encryption of credentials, firewalls to restrict lateral movement, regular patching, and behavioural analysis and monitoring against known good states. Controls should be assessed for both their design suitability and operational effectiveness.
 
----
 
 #### Risk Treatment and Lifecycle
 
@@ -79,7 +76,6 @@ Risk assessments are an ongoing process throughout a business lifecycle. In earl
 
 Continuous monitoring, proactive patching, ongoing employee training, and regular audits are essential for maintaining an effective risk management posture.
 
----
 
 #### Considerations for Confidence and Maturity
 
