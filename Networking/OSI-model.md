@@ -148,5 +148,3 @@ During each **encapsulation**, the entire transmission including all headers/foo
 | 3     | Network      | Routing and logical addressing              | IP, routers                 |
 | 2     | Data Link    | Local addressing and error detection        | MAC, Ethernet               |
 | 1     | Physical     | Hardware transmission of raw bits           | Cables, radio signals, NICs |
-
-
